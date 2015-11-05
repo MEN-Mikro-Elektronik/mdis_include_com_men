@@ -410,6 +410,27 @@ typedef struct {
 #define OSS_PCI_EXPROM_ADDR         22
 #define OSS_PCI_INTERRUPT_PIN       23
 #define OSS_PCI_INTERRUPT_LINE      24
+/* additional offsets for PCI type 1 devices (bridges) */
+#define OSS_PCI_PRIMARY_BUS     	25
+#define OSS_PCI_SECONDARY_BUS   	26
+#define OSS_PCI_SUBORDINATE_BUS 	27
+#define OSS_PCI_SEC_LATENCY     	28
+#define OSS_PCI_IO_BASE         	29
+#define OSS_PCI_IO_LIMIT        	30
+#define OSS_PCI_SEC_STATUS      	31
+#define OSS_PCI_MEM_BASE        	32
+#define OSS_PCI_MEM_LIMIT       	33
+#define OSS_PCI_PRE_MEM_BASE    	34
+#define OSS_PCI_PRE_MEM_LIMIT   	35
+#define OSS_PCI_PRE_MEM_BASE_U  	36
+#define OSS_PCI_PRE_MEM_LIMIT_U 	37
+#define OSS_PCI_IO_BASE_U       	38
+#define OSS_PCI_IO_LIMIT_U      	39
+#define OSS_PCI_ROM_BASE        	40
+#define OSS_PCI_BRG_INT_LINE    	41
+#define OSS_PCI_BRG_INT_PIN     	42
+#define OSS_PCI_BRIDGE_CONTROL  	43
+
 #define OSS_PCI_ACCESS_8			0x01000000
 #define OSS_PCI_ACCESS_16			0x02000000
 #define OSS_PCI_ACCESS_32			0x04000000
@@ -474,7 +495,7 @@ typedef struct {
 		(( bus & 0xff ) | ( ( domain & 0xff ) << 16 ))
 	
 #define OSS_BUS_NBR( merged_bus ) 		( merged_bus & 0xff )
-#define OSS_DOMAIN_NBR( merged_bus )	( ( merged_bus >> 16 ) & 0xff )							
+#define OSS_DOMAIN_NBR( merged_bus )	( ( merged_bus >> 16 ) & 0xff )							  
 
 
 /*-----------------------------------------+
