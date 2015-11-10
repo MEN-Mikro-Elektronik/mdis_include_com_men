@@ -350,6 +350,7 @@ typedef struct {
 #define OSS_BUSTYPE_MMODULE     5
 #define OSS_BUSTYPE_SMB		    6
 #define OSS_BUSTYPE_CHAM		7
+#define OSS_BUSTYPE_MSI			8
 #define OSS_BUSTYPE_UNKNOWN   255
 
 /* for OSS_MapPhysToVirtAddr */

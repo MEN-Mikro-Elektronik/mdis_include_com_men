@@ -18,10 +18,90 @@
  */
 /*-------------------------------[ History ]---------------------------------
  *
+ *  
+ * -- end of mcvs maintenance of this file --
  * $Log: dbg.h,v $
  * Revision 1.25  2013/07/02 11:17:11  MRoth
  * R: external Dbg_Init,Dbg_Exit functions replaced with blank defines
  * M: added external prototypes again to avoid compiler errors, removed defines
+ *
+ * Revision 1.24  2013/06/19 16:27:07  MRoth
+ * R: FPGA_Load for Windows 64bit needs OS specific macros
+ * M: changed/added defines and headers for Windows7 x64
+ *
+ * Revision 1.23  2008/07/15 12:53:38  dpfeuffer
+ * minor changes during development
+ *
+ * Revision 1.22  2008/04/14 14:49:44  DPfeuffer
+ * - header and comments adapted for doxygen
+ * - DBG_INITEXIT_DEFINED_BY_DBG_OS_H switch implemented
+ * - DBG_MEMDUMP_DEFINED_BY_DBG_OS_H switch implemented
+ * - includes dbg_os.h if switches (WINNT & _MDIS5_) set
+ *
+ * Revision 1.21  2005/11/21 15:38:58  ub
+ * fixed: C++ comments did not work with OS9 Ultra-C compiler
+ *
+ * Revision 1.20  2005/07/14 10:40:08  cs
+ * added support for WINNT userspace
+ *
+ * Revision 1.19  2005/07/07 14:49:20  cs
+ * Copyright line changed
+ *
+ * Revision 1.17  2005/05/06 10:56:01  ufranke
+ * added
+ *  + switch __INC_DBG_OS__
+ *
+ * Revision 1.16  2003/08/04 11:56:49  kp
+ * added QNX support
+ *
+ * Revision 1.15  2003/04/30 17:20:01  dschmidt
+ * patch for windows DBG defines
+ *
+ * Revision 1.14  2001/07/09 12:01:19  ww
+ * added more debug levels
+ *
+ * Revision 1.13  2001/01/19 14:38:24  kp
+ * changed to include dbg_os.h for LINUX.
+ *
+ * Revision 1.12  1998/09/18 11:43:10  see
+ * file intro removed (to dbg.c)
+ *
+ * Revision 1.11  1998/08/20 11:26:59  see
+ * cosmetics
+ *
+ * Revision 1.10  1998/08/05 12:13:54  Schmidt
+ * DBGDMP_LEVERR, IDBGDMP_LEVERR, DBGDMP_ERR, IDBGDMP_ERR added
+ *
+ * Revision 1.9  1998/06/27 14:42:14  Franke
+ * added   DBG_NORM_INTR for functions can called at task and interrupt level
+ * changed DBG_NORMERR is equal with DBG_INTRERR
+ *
+ * Revision 1.8  1998/06/02 17:31:22  see
+ * ifdef DBG_MYLEVEL removed
+ *
+ * Revision 1.7  1998/04/23 14:00:31  see
+ * DBG_INTR3 was deleted
+ *
+ * Revision 1.6  1998/04/23 10:25:48  see
+ * error level DBG_LEVERR and macros DBGWRT_xxxERR added
+ *
+ * Revision 1.5  1998/04/22 15:21:38  see
+ * ifdef DBG_MYLEVEL added for all macros using DBG_MYLEVEL
+ *
+ * Revision 1.4  1998/04/17 15:59:32  see
+ * DBG_LEV0 flag removed
+ * DBG_OFF added
+ *
+ * Revision 1.3  1998/04/17 12:07:10  see
+ * ifdef _NO_DBG_HANDLE added to exclude DBG_HANDLE declaration
+ *
+ * Revision 1.2  1998/04/16 12:09:06  see
+ * debug handle renamed to DBG_HANDLE
+ * debug level flags renamed (DBG prefix and shorter)
+ * DBG_xxx prototypes updated
+ *
+ * Revision 1.1  1998/03/27 15:44:20  Franke
+ * initial
  *---------------------------------------------------------------------------
  * Copyright (c) 2015 MEN Mikro Elektronik GmbH. All rights reserved.
  ****************************************************************************/
@@ -122,7 +202,8 @@
 #endif
 
 /* include OS-specific macros */
-#if defined(LINUX) || defined(__QNXNTO__) || defined(__INC_DBG_OS__)
+#if defined(LINUX) || defined(__QNXNTO__) || defined(__INC_DBG_OS__) || \
+	(defined(WINNT) && defined(_MDIS5_))
 # include <MEN/dbg_os.h>
 #endif
 
@@ -244,5 +325,4 @@ extern int32 DBG_Memdump(DBG_HANDLE *dbg, char *txt, void *buf,
 #ifdef __cplusplus
    }
 #endif
-
 #endif /*_DBG_H_*/
