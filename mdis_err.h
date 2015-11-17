@@ -384,6 +384,7 @@
 #define ERR_OSS_PCI_NO_DEV_FOUND ERR_OSS_PCI+0x07 /* no PCI dev found        */
 #define ERR_OSS_PCI_SET_CONFIG   ERR_OSS_PCI+0x08 /* PCI set config failed   */
 #define ERR_OSS_PCI_BUS_NOTFOUND ERR_OSS_PCI+0x09 /* PCI bus not found		 */
+#define ERR_OSS_PCIE_ILL_MSI     ERR_OSS_PCI+0x0a /* unknown MSI vector 	 */
 
 /* VME specific */
 #define ERR_OSS_VME				ERR_OSS+0xa0	  /* offs to OSS_VME errcodes*/

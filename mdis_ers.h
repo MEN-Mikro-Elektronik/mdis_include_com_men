@@ -276,7 +276,8 @@ struct _MDIS_ERR_STR
 	{ ERR_OSS_PCI_SLOT_TO_DEV	,"OSS: can't map PCI slot to device" },
 	{ ERR_OSS_PCI_NO_DEV_FOUND	,"OSS: no PCI dev found" },
 	{ ERR_OSS_PCI_SET_CONFIG	,"OSS: PCI set config failed" },
-	{ ERR_OSS_PCI_BUS_NOTFOUND  ,"OSS: PCI bus nr not found in system" },
+	{ ERR_OSS_PCI_BUS_NOTFOUND  ,"OSS: PCI bus nr not found in system" },	
+	{ ERR_OSS_PCIE_ILL_MSI      ,"OSS: unknown/illegal PCI MSI vector" },
 	/* max string size indicator  |1---------------------------------------------50| */
 	/* (VME specific) */
 	{ ERR_OSS_VME				,"OSS: general VME error" },
