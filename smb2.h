@@ -215,6 +215,15 @@ typedef struct
 									 0 = no automatic polling */
 }SMB_DESC_MPC85XX;
 
+/** descriptor for the Freescale i.MX6 internal I2C controller */
+typedef struct
+{
+	u_int32	   unit;			/**< I2C bus number, either 0 or 1 */
+	u_int32	   dbgLevel;		/**< see dbg.h */
+	u_int32	   timeOut;			/**< ms - 20 is a good value */
+	u_int32	   mikroDelay;		/**< default 0 - OSS_Delay, 1 - OSS_MikroDelay */
+}SMB_DESC_FSLIMX6;
+
 /******************** Common typedefs for SMB2 library *************************/
 
 /** SMBus Handle used in both, common and controller specific part of library */
