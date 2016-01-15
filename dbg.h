@@ -18,7 +18,7 @@
  */
 /*-------------------------------[ History ]---------------------------------
  *
- *  
+ *
  * -- end of mcvs maintenance of this file --
  * $Log: dbg.h,v $
  * Revision 1.25  2013/07/02 11:17:11  MRoth
@@ -206,7 +206,6 @@
 	(defined(WINNT) && defined(_MDIS5_))
 # include <MEN/dbg_os.h>
 #endif
-
 
 /* general macros */
 #define DBGINIT(_x_)    DBGCMD(DBG_Init _x_)
