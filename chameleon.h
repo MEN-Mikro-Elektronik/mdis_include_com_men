@@ -32,58 +32,58 @@
 |   DEFINES                             |
 +--------------------------------------*/
 /* official module codes */
-#define CHAMELEON_16Z000_SYSTEM		0x00
-#define CHAMELEON_16Z032_DISP		0x01
-#define CHAMELEON_16Z033_DISP		0x02
-#define CHAMELEON_16Z002_VME		0x02
-#define CHAMELEON_16Z031_SPI		0x03
-#define CHAMELEON_16Z023_IDE		0x04
-#define CHAMELEON_16Z030_UARTHLP	0x05
-#define CHAMELEON_16Z024_SRAM		0x06
-#define CHAMELEON_16Z025_UART		0x07
-#define CHAMELEON_16Z029_CAN		0x08
-#define CHAMELEON_16Z022_GPIO		0x09
-#define CHAMELEON_16Z035_SYSTEM		0x0a
-#define CHAMELEON_PCI_INT		0x0b
-#define CHAMELEON_CANGPIO		0x0c
-#define CHAMELEON_16Z016_IDE		0x10 	/* IDE UDMA */
-#define CHAMELEON_16Z063_NAND_RAW	0x18 	/* raw NAND flash controller */
-#define CHAMELEON_16Z034_GPIO		0x19
-#define CHAMELEON_16Z001_SMB		0x1b 	/* SMB */
-#define CHAMELEON_16Z048_ISA		0x1c 	/* ISA bridge */
-#define CHAMELEON_16Z049_TMR		0x1d 	/* 8254 timer */
-#define CHAMELEON_16Z050_BIO		0x1e 	/* binary I/O */
-#define CHAMELEON_16Z045_FLASH		0x1f 	/* flash I/F */
-#define CHAMELEON_16Z052_GIRQ		0x20 	/* global interrupt controller */
-#define CHAMELEON_16Z043_SDRAM		0x21 	/* SDRAM */
-#define CHAMELEON_16Z053_IDE		0x22 	/* standard IDE controller - may NIOS + NAND */
-#define CHAMELEON_16Z054_SYSTEM		0x23 	/* system registers - EM03/EM07 */
-#define CHAMELEON_16Z055_HDLC		0x24 	/* HDLC */
+#define CHAMELEON_16Z000_SYSTEM			0x00
+#define CHAMELEON_16Z032_DISP			0x01
+#define CHAMELEON_16Z033_DISP			0x02
+#define CHAMELEON_16Z002_VME			0x02
+#define CHAMELEON_16Z031_SPI			0x03
+#define CHAMELEON_16Z023_IDE			0x04
+#define CHAMELEON_16Z030_UARTHLP		0x05
+#define CHAMELEON_16Z024_SRAM			0x06
+#define CHAMELEON_16Z025_UART			0x07
+#define CHAMELEON_16Z029_CAN			0x08
+#define CHAMELEON_16Z022_GPIO			0x09
+#define CHAMELEON_16Z035_SYSTEM			0x0a
+#define CHAMELEON_PCI_INT				0x0b
+#define CHAMELEON_CANGPIO				0x0c
+#define CHAMELEON_16Z016_IDE			0x10 	/* IDE UDMA */
+#define CHAMELEON_16Z063_NAND_RAW		0x18 	/* raw NAND flash controller */
+#define CHAMELEON_16Z034_GPIO			0x19
+#define CHAMELEON_16Z001_SMB			0x1b 	/* SMB */
+#define CHAMELEON_16Z048_ISA			0x1c 	/* ISA bridge */
+#define CHAMELEON_16Z049_TMR			0x1d 	/* 8254 timer */
+#define CHAMELEON_16Z050_BIO			0x1e 	/* binary I/O */
+#define CHAMELEON_16Z045_FLASH			0x1f 	/* flash I/F */
+#define CHAMELEON_16Z052_GIRQ			0x20 	/* global interrupt controller */
+#define CHAMELEON_16Z043_SDRAM			0x21 	/* SDRAM */
+#define CHAMELEON_16Z053_IDE			0x22 	/* standard IDE controller - may NIOS + NAND */
+#define CHAMELEON_16Z054_SYSTEM			0x23 	/* system registers - EM03/EM07 */
+#define CHAMELEON_16Z055_HDLC			0x24 	/* HDLC */
 #define CHAMELEON_16Z044_DISP	    	0x25    /* Display Controller */
-#define CHAMELEON_16Z059_IRQ	  	0x26    /* Interrupt controller */
-#define CHAMELEON_16Z051_DAC		0x27 	/* Analog output */
-#define CHAMELEON_16Z023_IDENHS		0x29 	/* IDE without hot swap */
-#define CHAMELEON_16Z061_PWM		0x2a 	/* PWM unit */
-#define CHAMELEON_16Z062_DMA		0x2b 	/* general DMA */
-#define CHAMELEON_16Z064_ZOOM		0x2d 	/* Zoom logic 640x480 -> 800x600 */
-#define CHAMELEON_16Z065_WBAV		0x2e 	/* wishbone->avalon bridge */
-#define CHAMELEON_16Z066_MMOD		0x2f 	/* m-module */
-#define CHAMELEON_16Z067_VME		0x30 	/* vme */
-#define CHAMELEON_16Z068_IDE		0x31 	/* ide standard */
-#define CHAMELEON_16Z069_RST		0x32 	/* rst */
-#define CHAMELEON_16Z072_OWB		0x36 	/* One Wire Bus */
-#define CHAMELEON_16Z073_QDEC		0x33 	/* Quadrature Decoder */
-#define CHAMELEON_16Z074_REGSPI		0x37	/* Analog I/O */
-#define CHAMELEON_16Z075_SPEED		0x35 	/* Frequency Counter */
-#define CHAMELEON_16Z076_QSPI		0x34 	/* Quad SPI */
-#define CHAMELEON_16Z077_ETH		0x38 	/* Ethernet Controller */
-#define CHAMELEON_16Z079_ANYBUS		0x39	/* Anybus Module */
-#define CHAMELEON_16z082_IMPULSE	0x3a	/* Impulse counter Unit */
-#define CHAMELEON_CUSTOMER_MODULE	0x3f	/* Customer specific unit */
-#define CHAMELEON_16Z080_ARCNET		0x40	/* Arcnet Core */
-#define CHAMELEON_16Z081_FIP		0x41	/* FIP Core */
-#define CHAMELEON_16Z125_UART		0x42	/* High Speed Uart */
-#define CHAMELEON_16Z056_SPI		0x43	/* programable SPI controller */
+#define CHAMELEON_16Z059_IRQ	  		0x26    /* Interrupt controller */
+#define CHAMELEON_16Z051_DAC			0x27 	/* Analog output */
+#define CHAMELEON_16Z023_IDENHS			0x29 	/* IDE without hot swap */
+#define CHAMELEON_16Z061_PWM			0x2a 	/* PWM unit */
+#define CHAMELEON_16Z062_DMA			0x2b 	/* general DMA */
+#define CHAMELEON_16Z064_ZOOM			0x2d 	/* Zoom logic 640x480 -> 800x600 */
+#define CHAMELEON_16Z065_WBAV			0x2e 	/* wishbone->avalon bridge */
+#define CHAMELEON_16Z066_MMOD			0x2f 	/* m-module */
+#define CHAMELEON_16Z067_VME			0x30 	/* vme */
+#define CHAMELEON_16Z068_IDE			0x31 	/* ide standard */
+#define CHAMELEON_16Z069_RST			0x32 	/* rst */
+#define CHAMELEON_16Z072_OWB			0x36 	/* One Wire Bus */
+#define CHAMELEON_16Z073_QDEC			0x33 	/* Quadrature Decoder */
+#define CHAMELEON_16Z074_REGSPI			0x37	/* Analog I/O */
+#define CHAMELEON_16Z075_SPEED			0x35 	/* Frequency Counter */
+#define CHAMELEON_16Z076_QSPI			0x34 	/* Quad SPI */
+#define CHAMELEON_16Z077_ETH			0x38 	/* Ethernet Controller */
+#define CHAMELEON_16Z079_ANYBUS			0x39	/* Anybus Module */
+#define CHAMELEON_16z082_IMPULSE		0x3a	/* Impulse counter Unit */
+#define CHAMELEON_CUSTOMER_MODULE		0x3f	/* Customer specific unit */
+#define CHAMELEON_16Z080_ARCNET			0x40	/* Arcnet Core */
+#define CHAMELEON_16Z081_FIP			0x41	/* FIP Core */
+#define CHAMELEON_16Z125_UART			0x42	/* High Speed Uart */
+#define CHAMELEON_16Z056_SPI			0x43	/* programable SPI controller */
 #define CHAMELEON_16Z084_IDEEPROM   	0x44    /* ID EEPROM emulation for M199 */
 #define CHAMELEON_16Z085_MS09N      	0x45    /* MS09N interrupt logic*/
 #define CHAMELEON_16Z087_ETH	    	0x46    /* New MEN Ethernet Core */
@@ -92,112 +92,111 @@
 #define CHAMELEON_16Z090_DPRAM	    	0x49    /* 70V27 DPRAM unit */
 #define CHAMELEON_16Z094_WB28XX	    	0x5e    /* WB to 8xx Bus Bridge */
 #define CHAMELEON_16Z126_SERFLASH   	0x7e    /* Serial Flash interface */
+#define CHAMELEON_16Z135_HISPEEDUART   	0x87    /* High speed UART */
 #define CHAMELEON_16Z147_ARINC717_RX	0x93    /* ARINC717 receive IP core */
 #define CHAMELEON_16Z247_ARINC717_TX    0xf7    /* ARINC717 transmit IP core */
 #define CHAMELEON_16Z146_ARINC429_RX	0x92    /* ARINC429 receive IP core */
 #define CHAMELEON_16Z246_ARINC429_TX    0xf6    /* ARINC429 transmit IP core */
 
-
-
 /* old module codes: DONT USE THESE DEFINES IN NEW PROJECTS
-ts: old module codes were removed 18.02.2015. If there is any code out there still using
-these let compile fail gracefully so D.veloper is forced to update his defines. Ha! */
+ * ts: old module codes were removed 18.02.2015. If there is any code out there still using
+ * these let compile fail gracefully so D.E.Veloper is forced to update his defines. Ha! 
+ */
 
-/* pci FPGA defs */
-#define CHAMELEON_PCI_VENID_ALTERA	0x1172 /* Altera PCI Vendor ID */
-#define CHAMELEON_PCI_VENID_MEN		0x1A88 /* MEN PCI Vendor ID    */
+/* PCI FPGA defs */
+#define CHAMELEON_PCI_VENID_ALTERA		0x1172 /* Altera PCI Vendor ID */
+#define CHAMELEON_PCI_VENID_MEN			0x1A88 /* MEN PCI Vendor ID    */
 
-#define CHAMELEON_PCI_DEV_ID		0x4d45 /* standard chameleon device id */
+#define CHAMELEON_PCI_DEV_ID			0x4d45 /* standard chameleon device id */
 
-#define EM04_FPGA_PCI_DEV_ID		0x5104
-#define EM04_FPGA_PCI_DEV_NO		0x1D
-#define EM04_FPGA_PCI_BUS		0
-#define EM04_FPGA_PCI_FUNC		0
-#define EM04_FPGA_TYPE 			"EM04"
+#define EM04_FPGA_PCI_DEV_ID			0x5104
+#define EM04_FPGA_PCI_DEV_NO			0x1D
+#define EM04_FPGA_PCI_BUS				0
+#define EM04_FPGA_PCI_FUNC				0
+#define EM04_FPGA_TYPE 					"EM04"
 
-#define A015_PCI2VME_FPGA_IC		56
-#define A015_PCI2VME_FPGA_TYPE		"A015-IC56"
+#define A015_PCI2VME_FPGA_IC			56
+#define A015_PCI2VME_FPGA_TYPE			"A015-IC56"
 
-#define A015_PCI2MMOD_FPGA_IC		35
-#define A015_PCI2MMOD_FPGA_TYPE		"A015-IC35"
+#define A015_PCI2MMOD_FPGA_IC			35
+#define A015_PCI2MMOD_FPGA_TYPE			"A015-IC35"
 
 /* error codes */
-#define CHAMELEON_LOAD_OK		0
-#define CHAMELEON_OK			0
-#define CHAMELEON_CODE_ABSENT		0xB0
-#define CHAMELEON_CODE_MISMATCH		0xB1
-#define CHAMELEON_LOAD_ERR		0xB2
-#define CHAMELEON_VERIFY_ERR		0xB3
-#define CHAMELEON_INIT_DONE_ERR		0xB4
-#define CHAMELEON_CONF_STAT_ERR		0xB5
-#define CHAMELEON_CODE_CHKSUM_ERR	0xB6
-#define CHAMELEON_DEV_NOT_FOUND		0xB7
-#define CHAMELEON_PCI_ERR		0xB7
-#define CHAMELEON_OUT_OF_RESOURCE	0xBA
-#define CHAMELEON_OUT_OF_RANGE		0xBB
-#define CHAMELEON_UNIT_NOT_FOUND	0xBC
+#define CHAMELEON_LOAD_OK				0
+#define CHAMELEON_OK					0
+#define CHAMELEON_CODE_ABSENT			0xB0
+#define CHAMELEON_CODE_MISMATCH			0xB1
+#define CHAMELEON_LOAD_ERR				0xB2
+#define CHAMELEON_VERIFY_ERR			0xB3
+#define CHAMELEON_INIT_DONE_ERR			0xB4
+#define CHAMELEON_CONF_STAT_ERR			0xB5
+#define CHAMELEON_CODE_CHKSUM_ERR		0xB6
+#define CHAMELEON_DEV_NOT_FOUND			0xB7
+#define CHAMELEON_PCI_ERR				0xB7
+#define CHAMELEON_OUT_OF_RESOURCE		0xBA
+#define CHAMELEON_OUT_OF_RANGE			0xBB
+#define CHAMELEON_UNIT_NOT_FOUND		0xBC
 
 /**
  * @defgroup _CHAMV2_ERRCODES Chameleon-V2 Error Codes
  * Returns an error state (0xC0..0xDF) of Chameleon-V2 functions.
  * @{ */
-#define CHAMELEONV2_PCIDEV_ILL		0xC0	/*!< pci device illegal */
-#define CHAMELEONV2_PCIDEV_ERR		0xC1	/*!< pci device error */
-#define CHAMELEONV2_TABLE_NOT_FOUND	0xC2	/*!< chameleon table not found */
-#define CHAMELEONV2_TABLE_REV_UNSUP	0xC3	/*!< chameleon table revision unsupported */
-#define CHAMELEONV2_TABLE_ERR		0xC4	/*!< chameleon table erroneous */
-#define CHAMELEONV2_DTYPE_UNSUP		0xC5	/*!< unknown descriptor type found */
-#define CHAMELEONV2_BAR_UNASSIGNED	0xC6	/*!< bar unassigned */
-#define CHAMELEONV2_BARDESC_MISSING	0xC7	/*!< bar descriptor missing */
-#define CHAMELEONV2_HANDLE_ILL		0xC8	/*!< handle illegal */
-#define CHAMELEONV2_OUT_OF_RES 		0xC9	/*!< out of resources */
-#define CHAMELEONV2_NO_MORE_ENTRIES	0xCA	/*!< no more entries */
+#define CHAMELEONV2_PCIDEV_ILL			0xC0	/*!< pci device illegal */
+#define CHAMELEONV2_PCIDEV_ERR			0xC1	/*!< pci device error */
+#define CHAMELEONV2_TABLE_NOT_FOUND		0xC2	/*!< chameleon table not found */
+#define CHAMELEONV2_TABLE_REV_UNSUP		0xC3	/*!< chameleon table revision unsupported */
+#define CHAMELEONV2_TABLE_ERR			0xC4	/*!< chameleon table erroneous */
+#define CHAMELEONV2_DTYPE_UNSUP			0xC5	/*!< unknown descriptor type found */
+#define CHAMELEONV2_BAR_UNASSIGNED		0xC6	/*!< bar unassigned */
+#define CHAMELEONV2_BARDESC_MISSING		0xC7	/*!< bar descriptor missing */
+#define CHAMELEONV2_HANDLE_ILL			0xC8	/*!< handle illegal */
+#define CHAMELEONV2_OUT_OF_RES 			0xC9	/*!< out of resources */
+#define CHAMELEONV2_NO_MORE_ENTRIES		0xCA	/*!< no more entries */
 /** @} */
 
 /**
  * @defgroup _CHAMV2_SUCCCODES Chameleon-V2 Success Codes
  * Returns a success (0xE0..0xFF) of Chameleon-V2 functions.
  * @{ */
-#define CHAMELEONV2_UNIT_FOUND		0xE0	/*!< unit found */
-#define CHAMELEONV2_BRIDGE_FOUND	0xE1	/*!< bridge found */
-#define CHAMELEONV2_CPU_FOUND		0xE2	/*!< cpu found */
+#define CHAMELEONV2_UNIT_FOUND			0xE0	/*!< unit found */
+#define CHAMELEONV2_BRIDGE_FOUND		0xE1	/*!< bridge found */
+#define CHAMELEONV2_CPU_FOUND			0xE2	/*!< cpu found */
 /** @} */
 
 
-#define FPGA_HEADER_CODE_ABSENT		CHAMELEON_CODE_ABSENT
-#define FPGA_HEADER_BAD_PARAM		0xBD
-#define FPGA_DATA_CHKSUM_ERR		CHAMELEON_CODE_CHKSUM_ERR
-#define FPGA_CODE_MISMATCH			CHAMELEON_CODE_MISMATCH
+#define FPGA_HEADER_CODE_ABSENT			CHAMELEON_CODE_ABSENT
+#define FPGA_HEADER_BAD_PARAM			0xBD
+#define FPGA_DATA_CHKSUM_ERR			CHAMELEON_CODE_CHKSUM_ERR
+#define FPGA_CODE_MISMATCH				CHAMELEON_CODE_MISMATCH
 
 /**
  * @defgroup _CHAM_MAGICWORD Chameleon Magic Words
  * Used to detect byte swapping and revision of chameleon tab.
  * @{ */
-#define CHAMELEON_MAGIC_00		0xABCD		/*!< chameleon-V0 table */
-#define CHAMELEON_MAGIC_01		0xCDEF		/*!< chameleon-V1 table */
-#define CHAMELEON_MAGIC_02		0xABCE		/*!< chameleon-V2 table */
+#define CHAMELEON_MAGIC_00				0xABCD		/*!< chameleon-V0 table */
+#define CHAMELEON_MAGIC_01				0xCDEF		/*!< chameleon-V1 table */
+#define CHAMELEON_MAGIC_02				0xABCE		/*!< chameleon-V2 table */
 /** @} */
 
 /**
  * @defgroup _CHAMV2_BUSTYPE Chameleon-V2 Bus Types
  * Bus type of the bus that the chameleon-V2 table describes.
  * @{ */
-#define CHAMELEONV2_BUSTYPE_WB		0x0		/*!< Wishbone Bus */
-#define CHAMELEONV2_BUSTYPE_AV		0x1		/*!< Avalon Bus */
-#define CHAMELEONV2_BUSTYPE_LPC		0x2		/*!< LPC Bus */
-#define CHAMELEONV2_BUSTYPE_ISA		0x3		/*!< ISA Bus */
+#define CHAMELEONV2_BUSTYPE_WB			0x0		/*!< Wishbone Bus */
+#define CHAMELEONV2_BUSTYPE_AV			0x1		/*!< Avalon Bus */
+#define CHAMELEONV2_BUSTYPE_LPC			0x2		/*!< LPC Bus */
+#define CHAMELEONV2_BUSTYPE_ISA			0x3		/*!< ISA Bus */
 /** @} */
 
 /**
  * @defgroup _CHAMV2_FF Chameleon-V2 InstanceFind() Flags
  * Flags that modify the behaviour of the InstanceFind() function.
  * @{ */
-#define CHAMELEONV2_FF_BRGALL	0x0001 /*!< Find also all units and bridges within the bridged
-                                            destination window of a matching bridge. See InstanceFind() */
+#define CHAMELEONV2_FF_BRGALL			0x0001 /*!< Find also all units and bridges within the bridged
+												 destination window of a matching bridge. See InstanceFind() */
 /** @} */
 
-#define CHAMELEONV2_FILENAME_SIZE	13		/*!< length of FPGA filename including
-												 terminating null character */
+#define CHAMELEONV2_FILENAME_SIZE		13		/*!< length of FPGA filename including terminating null character */
 
 /*--------------------------------------+
 |   TYPDEFS                             |
@@ -607,76 +606,74 @@ extern int32 CHAM_InitMemSw( CHAM_FUNCTBL *fP );
 #endif
 		u_int16		devId;		/* V2 device Id */
 	} G_ChamTbl[] = {
-		{ 0x0			  , "not identified", 0xffff },
-		{ CHAMELEON_16Z001_SMB    , "16Z001_SMB"	,  1 },
-		{ CHAMELEON_16Z002_VME	  , "16Z002_VME"	,  2 },
-		{ CHAMELEON_16Z016_IDE    , "16Z016_IDE"	, 16 },
-		{ CHAMELEON_16Z022_GPIO   , "16Z022_GPIO"	, 22 },
-		{ CHAMELEON_16Z023_IDE    , "16Z023_IDE"	, 23 },
-		{ CHAMELEON_16Z024_SRAM   , "16Z024_SRAM"	, 24 },
-		{ CHAMELEON_16Z025_UART   , "16Z025_UART"	, 25 },
-		{ CHAMELEON_16Z029_CAN    , "16Z029_CAN"	, 29 },
-		{ CHAMELEON_16Z030_UARTHLP, "16Z030_UARTHLP"	, 30 },
-		{ CHAMELEON_16Z031_SPI    , "16Z031_SPI"	, 31 },
-		{ CHAMELEON_16Z032_DISP   , "16Z032_DISP"	, 32 },
-		{ CHAMELEON_16Z033_DISP   , "16Z033_DISP"	, 33 },
-		{ CHAMELEON_16Z034_GPIO   , "16Z034_GPIO"	, 34 },
-		{ CHAMELEON_16Z035_SYSTEM , "16Z035_SYSTEM"	, 35 },
-		{ 0x0			  , "16Z037_GPIO"	, 37 },
-		{ CHAMELEON_16Z043_SDRAM  , "16Z043_SDRAM"	, 43 },
-		{ CHAMELEON_16Z044_DISP	  ,	"16Z044_DISP"	, 44 },
-		{ CHAMELEON_16Z045_FLASH  , "16Z045_FLASH"	, 45 },
-		{ CHAMELEON_16Z048_ISA    , "16Z048_ISA"	, 48 },
-		{ CHAMELEON_16Z049_TMR    , "16Z049_TMR"	, 49 },
-		{ CHAMELEON_16Z050_BIO    , "16Z050_BIO"	, 50 },
-		{ CHAMELEON_16Z051_DAC    , "16Z051_DAC"	, 51 },
-		{ CHAMELEON_16Z052_GIRQ   , "16Z052_GIRQ"	, 52 },
-		{ CHAMELEON_16Z053_IDE	  , "16Z053_IDETGT"	, 53 },
-		{ CHAMELEON_16Z054_SYSTEM , "16Z054_SYSTEM"	, 54 },
-		{ CHAMELEON_16Z055_HDLC   , "16Z055_HDLC"	, 55 },
-		{ CHAMELEON_16Z056_SPI    , "16Z056_SPI"	, 56 },
-		{ CHAMELEON_16Z057_UART,	"16Z057_UART"	, 57 },
-		{ CHAMELEON_16Z059_IRQ    , "16Z059_IRQ"	, 59 },
-		{ CHAMELEON_16Z061_PWM , 	"16Z061_PWM"	, 61 },
-		{ CHAMELEON_16Z062_DMA , 	"16Z062_DMA"	, 62 },
-		{ CHAMELEON_16Z063_NAND_RAW,"16Z063_NAND_RAW",63 },
-		{ CHAMELEON_16Z064_ZOOM,	"16Z064_ZOOM"	, 64 },
-		{ CHAMELEON_16Z065_WBAV,	"16Z065_WBAV"	, 65 },
-		{ CHAMELEON_16Z066_MMOD,	"16Z066_MMOD"	, 66 },
-		{ CHAMELEON_16Z067_VME,		"16Z065_VME"	, 67 },
-		{ CHAMELEON_16Z068_IDE,		"16Z068_IDE"	, 68 },
-		{ CHAMELEON_16Z069_RST,		"16Z069_RST"	, 69 },
-		{ CHAMELEON_16Z072_OWB,		"16Z072_OWB"	, 72 },
-		{ CHAMELEON_16Z073_QDEC,	"16Z073_QDEC"	, 73 },
-		{ CHAMELEON_16Z074_REGSPI,	"16Z074_REGSPI"	, 74 },
-		{ CHAMELEON_16Z075_SPEED,	"16Z075_SPEED"	, 75 },
-		{ CHAMELEON_16Z076_QSPI,	"16Z076_QSPI"	, 76 },
-		{ CHAMELEON_16Z077_ETH,		"16Z077_ETH"	, 77 },
-		{ 0x0,  					"16Z078_NIOS" 	, 78 },
-		{ CHAMELEON_16Z079_ANYBUS,  "16Z079_ANYBUS"	, 79 },
-		{ CHAMELEON_16Z080_ARCNET,  "16Z080_ARCNET"	, 80 },
-		{ CHAMELEON_16Z081_FIP,  	"16Z081_FIP"	, 81 },
-		{ CHAMELEON_16z082_IMPULSE,	"16Z082_IMPULSE", 82 },
-		{ CHAMELEON_16Z084_IDEEPROM,"16Z084_IDEEPROM",84 },
-		{ CHAMELEON_16Z085_MS09N,	"16Z085_MS09N"  , 85 },
-		{ 0x0,						"16Z086_INTERBUS",86 },
-		{ CHAMELEON_16Z087_ETH,		"16Z087_ETH"	, 87 },
-		{ 0x0,						"16Z088_PG"		, 88 },
-		{ CHAMELEON_16Z089_HSSL,	"16Z089_HSSL"	, 89 },
-		{ CHAMELEON_16Z090_DPRAM,	"16Z090_DPRAM"	, 90 },
-		{ 0x0,						"16Z093_AFDX"	, 93 },
-		{ CHAMELEON_16Z094_WB28XX,	"16Z094_WB28XX"	, 94 },
-		{ CHAMELEON_16Z023_IDENHS,  "16Z023_IDENHS"	, 123 },
-		{ CHAMELEON_16Z125_UART,  	"16Z125_UART"	, 125 },
-		{ CHAMELEON_16Z126_SERFLASH,"16Z126_SERFLASH", 126 },
-		{ 0x0,  					"16Z135_UART"	, 135 },
-	    { CHAMELEON_16Z147_ARINC717_RX,"16Z147_AR717_RX", 147 },
-	    { CHAMELEON_16Z247_ARINC717_TX,"16Z247_AR717_TX", 247 },
-	    { CHAMELEON_16Z146_ARINC429_RX,"16Z146_AR429_RX", 146 },
-	    { CHAMELEON_16Z246_ARINC429_TX,"16Z246_AR429_TX", 246 },
-		{ 0x0,  					"16Z127_GPIO"	, 127 },
-
-
+		{ 0x0	  , "not identified", 0xffff },
+		{ CHAMELEON_16Z001_SMB    , 	"16Z001_SMB"	,  1 },
+		{ CHAMELEON_16Z002_VME	  , 	"16Z002_VME"	,  2 },
+		{ CHAMELEON_16Z016_IDE    , 	"16Z016_IDE"	, 16 },
+		{ CHAMELEON_16Z022_GPIO   , 	"16Z022_GPIO"	, 22 },
+		{ CHAMELEON_16Z023_IDE    , 	"16Z023_IDE"	, 23 },
+		{ CHAMELEON_16Z024_SRAM   , 	"16Z024_SRAM"	, 24 },
+		{ CHAMELEON_16Z025_UART   , 	"16Z025_UART"	, 25 },
+		{ CHAMELEON_16Z029_CAN    , 	"16Z029_CAN"	, 29 },
+		{ CHAMELEON_16Z030_UARTHLP, 	"16Z030_UARTHLP"	, 30 },
+		{ CHAMELEON_16Z031_SPI    , 	"16Z031_SPI"	, 31 },
+		{ CHAMELEON_16Z032_DISP   , 	"16Z032_DISP"	, 32 },
+		{ CHAMELEON_16Z033_DISP   , 	"16Z033_DISP"	, 33 },
+		{ CHAMELEON_16Z034_GPIO   , 	"16Z034_GPIO"	, 34 },
+		{ CHAMELEON_16Z035_SYSTEM , 	"16Z035_SYSTEM"	, 35 },
+		{ 0x0, 							"16Z037_GPIO"	, 37 },
+		{ CHAMELEON_16Z043_SDRAM  , 	"16Z043_SDRAM"	, 43 },
+		{ CHAMELEON_16Z044_DISP	  ,		"16Z044_DISP"	, 44 },
+		{ CHAMELEON_16Z045_FLASH  , 	"16Z045_FLASH"	, 45 },
+		{ CHAMELEON_16Z048_ISA    , 	"16Z048_ISA"	, 48 },
+		{ CHAMELEON_16Z049_TMR    , 	"16Z049_TMR"	, 49 },
+		{ CHAMELEON_16Z050_BIO    , 	"16Z050_BIO"	, 50 },
+		{ CHAMELEON_16Z051_DAC    , 	"16Z051_DAC"	, 51 },
+		{ CHAMELEON_16Z052_GIRQ   , 	"16Z052_GIRQ"	, 52 },
+		{ CHAMELEON_16Z053_IDE	  , 	"16Z053_IDETGT"	, 53 },
+		{ CHAMELEON_16Z054_SYSTEM , 	"16Z054_SYSTEM"	, 54 },
+		{ CHAMELEON_16Z055_HDLC   , 	"16Z055_HDLC"	, 55 },
+		{ CHAMELEON_16Z056_SPI    , 	"16Z056_SPI"	, 56 },
+		{ CHAMELEON_16Z057_UART,		"16Z057_UART"	, 57 },
+		{ CHAMELEON_16Z059_IRQ    , 	"16Z059_IRQ"	, 59 },
+		{ CHAMELEON_16Z061_PWM , 		"16Z061_PWM"	, 61 },
+		{ CHAMELEON_16Z062_DMA , 		"16Z062_DMA"	, 62 },
+		{ CHAMELEON_16Z063_NAND_RAW,	"16Z063_NAND_RAW",63 },
+		{ CHAMELEON_16Z064_ZOOM,		"16Z064_ZOOM"	, 64 },
+		{ CHAMELEON_16Z065_WBAV,		"16Z065_WBAV"	, 65 },
+		{ CHAMELEON_16Z066_MMOD,		"16Z066_MMOD"	, 66 },
+		{ CHAMELEON_16Z067_VME,			"16Z065_VME"	, 67 },
+		{ CHAMELEON_16Z068_IDE,			"16Z068_IDE"	, 68 },
+		{ CHAMELEON_16Z069_RST,			"16Z069_RST"	, 69 },
+		{ CHAMELEON_16Z072_OWB,			"16Z072_OWB"	, 72 },
+		{ CHAMELEON_16Z073_QDEC,		"16Z073_QDEC"	, 73 },
+		{ CHAMELEON_16Z074_REGSPI,		"16Z074_REGSPI"	, 74 },
+		{ CHAMELEON_16Z075_SPEED,		"16Z075_SPEED"	, 75 },
+		{ CHAMELEON_16Z076_QSPI,		"16Z076_QSPI"	, 76 },
+		{ CHAMELEON_16Z077_ETH,			"16Z077_ETH"	, 77 },
+		{ 0x0,  						"16Z078_NIOS" 	, 78 },
+		{ CHAMELEON_16Z079_ANYBUS,  	"16Z079_ANYBUS"	, 79 },
+		{ CHAMELEON_16Z080_ARCNET,  	"16Z080_ARCNET"	, 80 },
+		{ CHAMELEON_16Z081_FIP,  		"16Z081_FIP"	, 81 },
+		{ CHAMELEON_16z082_IMPULSE,		"16Z082_IMPULSE", 82 },
+		{ CHAMELEON_16Z084_IDEEPROM,	"16Z084_IDEEPROM",84 },
+		{ CHAMELEON_16Z085_MS09N,		"16Z085_MS09N"  , 85 },
+		{ 0x0,							"16Z086_INTERBUS",86 },
+		{ CHAMELEON_16Z087_ETH,			"16Z087_ETH"	, 87 },
+		{ 0x0,							"16Z088_PG"		, 88 },
+		{ CHAMELEON_16Z089_HSSL,		"16Z089_HSSL"	, 89 },
+		{ CHAMELEON_16Z090_DPRAM,		"16Z090_DPRAM"	, 90 },
+		{ 0x0,							"16Z093_AFDX"	, 93 },
+		{ CHAMELEON_16Z094_WB28XX,		"16Z094_WB28XX"	, 94 },
+		{ CHAMELEON_16Z023_IDENHS,  	"16Z023_IDENHS"	, 123 },
+		{ CHAMELEON_16Z125_UART,  		"16Z125_UART"	, 125 },
+		{ CHAMELEON_16Z126_SERFLASH,	"16Z126_SERFLASH", 126 },
+		{ CHAMELEON_16Z135_HISPEEDUART,	"16Z135_UART"	, 135 },
+	    { CHAMELEON_16Z147_ARINC717_RX,	"16Z147_AR717_RX", 147 },
+	    { CHAMELEON_16Z247_ARINC717_TX,	"16Z247_AR717_TX", 247 },
+	    { CHAMELEON_16Z146_ARINC429_RX,	"16Z146_AR429_RX", 146 },
+	    { CHAMELEON_16Z246_ARINC429_TX,	"16Z246_AR429_TX", 246 },
+		{ 0x0,  						"16Z127_GPIO"	, 127 },
 		{ CHAMELEON_CUSTOMER_MODULE,"CUSTOMER_MODULE",900 },
 		{ CHAMELEON_PCI_INT,		"PCI INT"		, 0xffff },
 		{ CHAMELEON_CANGPIO,		"CAN GPIO"		, 0xffff },
