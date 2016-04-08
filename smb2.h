@@ -173,6 +173,18 @@ typedef struct
 									 ms - 20 is a good value */
 }SMB_DESC_ICH;
 
+/** Descriptor for the AMD FCH controller */
+typedef struct
+{
+	void	   *baseAddr;		/**< base address of Intel ICH controller */
+	u_int32    dbgLevel;		/**< see dbg.h */
+	int32	   alertPollFreq;	/**< frequency lib shall poll for SMB alerts
+								ms - 1000 is a good value,
+								0 = no automatic polling */
+	int32	   busyWait;		/**< wait time for blocking semaphore (lib busy)
+								ms - 20 is a good value */
+}SMB_DESC_FCH;
+
 /** Descriptor for the Intel SCH controller */
 typedef struct
 {
@@ -493,6 +505,10 @@ extern u_int32 SMB_MENZ001_Init_Aligned(SMB_DESC_MENZ001 *descP, OSS_HANDLE *osH
 /** Init function for ICH SMB host controller */
 extern u_int32 SMB_ICH_Init(        SMB_DESC_ICH     *descP, OSS_HANDLE *osHdl, void **smbHdlP);
 extern u_int32 SMB_ICH_IO_Init(     SMB_DESC_ICH     *descP, OSS_HANDLE *osHdl, void **smbHdlP);
+
+/** Init function for FCH SMB host controller */
+extern u_int32 SMB_FCH_Init(		SMB_DESC_FCH     *descP, OSS_HANDLE *osHdl, void **smbHdlP);
+extern u_int32 SMB_FCH_IO_Init(		SMB_DESC_FCH     *descP, OSS_HANDLE *osHdl, void **smbHdlP);
 
 /** Init function for SCH SMB host controller */
 extern u_int32 SMB_SCH_Init(        SMB_DESC_SCH     *descP, OSS_HANDLE *osHdl, void **smbHdlP);
