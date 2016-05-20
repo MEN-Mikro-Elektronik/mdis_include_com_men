@@ -36,21 +36,34 @@
 +--------------------------------------*/
 
 /*--- PCI vendor/device IDs ---*/
-#define MENPCI2VME_DEV_ID		0x5056	/* ASCII 'PV' */
-#define MENPCI2VME_VEN_ID		0x1172  
-
-#define MENPCI2VME_DEV_ID_A21       0x4D45  /* ASCII 'PV' */
-#define MENPCI2VME_VEN_ID_A21       0x1A88
+#define MENPCI2VME_DEV_ID_A15	0x5056	/* ASCII 'PV' */
+#define MENPCI2VME_VEN_ID_A15	0x1172
+#define MENPCI2VME_DEV_ID_A21	0x4D45  /* ASCII 'PV' */
+#define MENPCI2VME_VEN_ID_A21	0x1A88
+#define MENPCI2VME_VEN_ID_END	0xFFFF
+#define MENPCI2VME_DEV_ID_END	0xFFFF
 
 #define MENPCI2VME_SUB_DEV_ID	0xFF00  /* ???? */
 #define MENPCI2VME_SUB_VEN_ID	0xFF00  /* ???? */
 
-/*--- offsets to address found in BAR0 ---*/
-#define MENPCI2VME_A24_SPACE	0x00000000	/* VME A24 master access */
-#define MENPCI2VME_A16_SPACE	0x01000000	/* VME A16 master access */
-#define MENPCI2VME_SRAM_SPACE	0x01400000	/* VME shared RAM */
-#define MENPCI2VME_REG_SPACE	0x01800000 	/* registers */
-#define MENPCI2VME_IACK_SPACE	0x01c00000 	/* IACK space */
+#define MENPCI2VME_PCI_VENID	0
+#define MENPCI2VME_PCI_DEVID	1
+
+/*--- offsets to address found in BAR0 for A15 ---*/
+#define MENPCI2VME_A24_SPACE_A15	0x00000000	/* VME A24 master access */
+#define MENPCI2VME_A16_SPACE_A15	0x01000000	/* VME A16 master access */
+#define MENPCI2VME_SRAM_SPACE_A15	0x01400000	/* VME shared RAM */
+#define MENPCI2VME_REG_SPACE_A15	0x01800000	/* registers */
+#define MENPCI2VME_IACK_SPACE_A15	0x01c00000	/* IACK space */
+
+/*--- offsets to address found in BAR0 for A21 ---*/
+#define MENPCI2VME_A24_D16_SPACE_A21	0x04000000	/* VME A24 D16 master access */
+#define MENPCI2VME_A24_D32_SPACE_A21	0x05000000	/* VME A24 D32 master access */
+#define MENPCI2VME_A16_D16_SPACE_A21	0x00010000	/* VME A16 D16 master access */
+#define MENPCI2VME_A16_D32_SPACE_A21	0x00020000	/* VME A16 D32 master access */
+#define MENPCI2VME_SRAM_SPACE_A21		0x00400000	/* VME shared RAM */
+#define MENPCI2VME_REG_SPACE_A21		0x00800000	/* registers */
+#define MENPCI2VME_IACK_SPACE_A21		0x00c00000	/* IACK space */
 
 /*--- offsets to register start address (MENPCI2VME_REG_SPACE) ---*/
 #define MENPCI2VME_INTR			0x00	/* interrupter control */
@@ -60,6 +73,7 @@
 #define MENPCI2VME_MSTR			0x10	/* master control */
 #define MENPCI2VME_SLV			0x14	/* slave control */
 #define MENPCI2VME_SYSCTL		0x18	/* system control */
+#define MENPCI2VME_LONGADD		0x1c	/* Upper 3 Address Bits for A32 */
 
 /*--- bit defs of registers above ---*/
 #define MENPCI2VME_INTR_INTEN	0x8
