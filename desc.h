@@ -30,6 +30,8 @@
 #ifndef _DESC_H
 #  define _DESC_H
 
+#include <MEN/dbg.h>
+
 #  ifdef __cplusplus
       extern "C" {
 #  endif
@@ -42,6 +44,15 @@ typedef void* DESC_SPEC;
 
 /* descriptor handle */
 typedef void* DESC_HANDLE;
+
+/* internal descriptor handle */
+typedef struct {
+   u_int32     OwnMemSize;
+   OSS_HANDLE  *osHdl;				/* oss handle */
+   DBG_HANDLE  *dbgHdl;				/* debug handle */
+   u_int32     dbgLev;				/* debug level */
+   void        *descStructP;		/* ptr to descr data */
+} DESC_INT_HDL;
 
 /*-----------------------------------------+
 |  DEFINES                                 |
