@@ -105,11 +105,11 @@
 #ifndef _USR_OSS_H_
 #	define _USR_OSS_H_
 
+#include <MEN/usr_os.h>
+
 #ifdef __cplusplus
 	extern "C" {
 #endif
-
-#include <MEN/usr_os.h>
 
 /*--------------------------------------+
 |   DEFINES                             |
