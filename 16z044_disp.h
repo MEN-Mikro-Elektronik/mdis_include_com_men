@@ -3,8 +3,8 @@
  *         Name: 16z044_disp.h
  *
  *       Author: cs/kp
- *        $Date: 2007/07/11 14:36:52 $
- *    $Revision: 3.7 $
+ *        $Date: 2011/12/19 14:39:02 $
+ *    $Revision: 3.9 $
  *
  *  Description: Header file for MEN Z044_DISP graphics controller
  *
@@ -13,9 +13,17 @@
  *-------------------------------[ History ]---------------------------------
  *
  * $Log: 16z044_disp.h,v $
+ * Revision 3.9  2011/12/19 14:39:02  ts
+ * R: customer uses both LVDS ports on EM10A
+ * M: added define for BOTH_PORTS bit
+ *
+ * Revision 3.8  2011/05/23 15:23:50  ts
+ * R: additional display type to be supported with 1280 x 800 pixel
+ * M: new define Z044_DISP_RES_1280X800 added
+ *
  * Revision 3.7  2007/07/11 14:36:52  rt
  * added:
- * -LVDS suppport
+ * -LVDS support
  *
  * Revision 3.6  2006/07/11 10:00:19  rla
  * Added Resolution 320x200, adapted for Z044 controller revision 1
@@ -95,6 +103,8 @@
 							/**< setting VGA resolution ( 1024 x  768 ) */
 #define Z044_DISP_CTRL_RES_1280X1024	0x00000003
 							/**< setting VGA resolution ( 1280 x 1024 ) */
+#define Z044_DISP_CTRL_RES_1280X800		0x00000011
+							/**< setting VGA resolution ( 1280 x 800 ) */
 
 #define Z044_DISP_RES_MASK			0x000000FF
 #define Z044_DISP_RES_320X240		4
@@ -102,6 +112,7 @@
 #define Z044_DISP_RES_800X600		1
 #define Z044_DISP_RES_1024X768		2
 #define Z044_DISP_RES_1280X1024		3
+#define Z044_DISP_RES_1280X800		5
 
 #define Z044_DISP_LVDS_MASK			0xF0000000
 #define Z044_DISP_LVDS				(1<<28)
@@ -121,6 +132,9 @@
 							/**< Invert TX_CLK (= LVDS pixel clock) */
 #define Z044_LVDS_DISABLE_LVDS	0x00000020
 							/**< Disable LVDS */
+#define Z044_LVDS_BOTH_PORTS	0x00000040
+							/**< enable one or both LVDS ports */
+
 
 #ifdef __cplusplus
 	}
