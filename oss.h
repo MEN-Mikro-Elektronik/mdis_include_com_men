@@ -221,15 +221,15 @@
 #ifndef _OSS_H_
 #define _OSS_H_
 
-#ifdef __cplusplus
-   extern "C" {
-#endif
-
 #ifndef MAC_USERSPACE
 #	include <MEN/oss_os.h>  /* os specific types and header */
 #else
 #	include <MEN/ossu_os.h>  /* os specific types and header for user space */
 #endif /* MAC_USERSPACE */
+
+#ifdef __cplusplus
+   extern "C" {
+#endif
 
 /*-----------------------------------------+
 |  TYPEDEFS                                |
