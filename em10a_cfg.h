@@ -114,10 +114,16 @@
 /* boot flash */
 #define EM10CFG_FLASH_2MB					0xFFE00000
 #define EM10CFG_FLASH_SIZE_2MB				0x00200000
+
 #define EM10CFG_FLASH_4MB					0xFFC00000
 #define EM10CFG_FLASH_SIZE_4MB				0x00400000
+
 #define EM10CFG_FLASH_8MB					0xFF800000
 #define EM10CFG_FLASH_SIZE_8MB				0x00800000
+
+#define EM10CFG_FLASH_16MB					0xFF000000
+#define EM10CFG_FLASH_SIZE_16MB				0x01000000
+
 
 /* parameter string */
 #define EM10CFG_MM_PARA_FPGA_LOC_SAVE		0x40	/* information which FPGA was loaded will be stored here */
