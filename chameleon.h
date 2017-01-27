@@ -300,7 +300,7 @@ typedef struct {
 	/* resources */
 	u_int16 interrupt;			/*!< chameleon internal interrupt number
 									assigned to unit (0x00..0x3F) */
-	u_int16	bar;				/*!< unit's address space is in BARx (0..7)
+	u_int16	bar;				/*!< unit's address space is in BARx (0..5)
 								     - caller's view, see \ref _CHAM2_ADDR */
 	u_int32 offset;				/*!< unit's address space offset to BARx
 								     - caller's view, see \ref _CHAM2_ADDR */

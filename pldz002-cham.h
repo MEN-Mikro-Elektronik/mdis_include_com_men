@@ -298,6 +298,19 @@ typedef struct {
 /* CTRL 0x4c */
 #define PLDZ002_SLV32_PCI		0x004c		/**< Slave Control Register A32 to PCI (r/w)		*/
 
+/* CTRL 0x50 */
+#define PLDZ002_GEO_ADDR		0x0050		/**< Geographical Address Register (r)		        */
+# define PLDZ002_GEO_ADDR_SHIFT         8
+# define PLDZ002_GEO_ADDR_MASK          0x1f
+
+/* CTRL 0x54 */
+#define PLDZ002_REQUEST_LVL		0x0054		/**< Slave Control Register A32 to PCI (r/w)		*/
+# define PLDZ002_REQ_LEVEL_0       0
+# define PLDZ002_REQ_LEVEL_1       1
+# define PLDZ002_REQ_LEVEL_2       2
+# define PLDZ002_REQ_LEVEL_3       3
+
+
 #if PLDZ002_REV < 17
 /* offset relative to internal RAM! */
 # define PLDZ002_DMABD_OFF(bd)	PLDZ002_DMABD_OFF_RV9(bd)
@@ -313,10 +326,3 @@ typedef struct {
 #  endif
 
 #endif /* _PLDZ002_H */
-
-
-
-
-
-
-
