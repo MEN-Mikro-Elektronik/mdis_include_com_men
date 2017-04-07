@@ -159,11 +159,10 @@
 /* CTRL 0x11 */
 #define PLDZ002_AMOD			0x0011		/**< Address modifier Register (A21/A25) (r/w)*/
 /* mask to wipe AM modifier flags prior to setting */
-#define VME4l_SPC_A16_AM_MASK	0x03		/**<	A16 AM (MSTR[8:9]  = AMOD[0:1])	*/	
+#define VME4l_SPC_A16_AM_MASK	0x03		/**<	A16 AM (MSTR[8:9]  = AMOD[0:1])	*/
 #define VME4l_SPC_A24_AM_MASK	0x0c		/**<	A24 AM (MSTR[10:11]= AMOD[2:3])	*/
 #define VME4l_SPC_A32_AM_MASK	0x30		/**<	A32 AM (MSTR[12:13]= AMOD[4:5])	*/
 #define PLDZ002_CR_CSR_BIT		0x40		/**<	CR/CSR AM 0x2f					*/
-#define ADDR_MOD_CR_CSR			0x2f		/**<	special AM 0x2f	for Config ROMs	*/	
 
 /* CTRL 0x14 */
 #define PLDZ002_SLV24			0x0014		/**< Slave Control Register A24 (r/w)		*/
