@@ -93,6 +93,7 @@
 #define PLDZ002_A16D16_SPACE	0x00010000	/**< A16D16 (short) space - offset			*/
 #define PLDZ002_A16D32_SPACE	0x00020000	/**< A16D32 (short) space - offset			*/
 #define PLDZ002_A16Dxx_SIZE		0x00010000	/**< A16Dxx (short) space - size (64kB)		*/
+#define PLDZ002_CR_CSR_SIZE		0x01000000	/**< CR/CSR space - size (16MB)				*/
 
 #define PLDZ002_LRAM_SPACE		0x01400000	/**< Local RAM - offset						*/
 #define PLDZ002_LRAM_SIZE		0x00100000	/**< Local RAM - size (1MB)					*/
