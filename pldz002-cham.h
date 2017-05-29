@@ -69,7 +69,21 @@
  *
  *---------------------------------------------------------------------------
  * (c) Copyright 2003 by MEN Mikro Elektronik GmbH, Nuremberg, Germany
- ****************************************************************************/
+ ******************************************************************************/
+/*
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
 
 #ifndef _PLDZ002_H
 #define _PLDZ002_H
@@ -93,6 +107,7 @@
 #define PLDZ002_A16D16_SPACE	0x00010000	/**< A16D16 (short) space - offset			*/
 #define PLDZ002_A16D32_SPACE	0x00020000	/**< A16D32 (short) space - offset			*/
 #define PLDZ002_A16Dxx_SIZE		0x00010000	/**< A16Dxx (short) space - size (64kB)		*/
+#define PLDZ002_CR_CSR_SIZE		0x01000000	/**< CR/CSR space - size (16MB)				*/
 
 #define PLDZ002_LRAM_SPACE		0x01400000	/**< Local RAM - offset						*/
 #define PLDZ002_LRAM_SIZE		0x00100000	/**< Local RAM - size (1MB)					*/
