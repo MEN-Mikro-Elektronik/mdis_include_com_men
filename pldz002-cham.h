@@ -113,7 +113,7 @@
 #define PLDZ002_LRAM_SIZE		0x00100000	/**< Local RAM - size (1MB)					*/
 
 #define PLDZ002_CTRL_SPACE		0x00000000	/**< Bridge Ctrl-Reg - offset				*/
-#define PLDZ002_CTRL_SIZE		0x00000050	/**< Bridge Ctrl-Reg - size (80Bytes)		*/
+#define PLDZ002_CTRL_SIZE		0x00000100	/**< Bridge Ctrl-Reg - size ( 256 Bytes)	*/
 
 #define PLDZ002_DMA_MAX_BDS		0x10 		/**< max number of BDs  */
 #define PLDZ002_DMABD_SIZE 		0x10
