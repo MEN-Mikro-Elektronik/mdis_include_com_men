@@ -326,7 +326,14 @@ typedef struct {
 # define PLDZ002_REQ_LEVEL_3       3
 
 /* CTRL 0x58 */
-#define PLDZ002_CR_CSR_OFFS		0x0058		/**< CR/CSR Base Address Register (r/w)		*/
+#define PLDZ002_BERR_ADDR		0x0058		/**< Bus Error Address Register (r)		*/
+
+/* CTRL 0x5C */
+#define PLDZ002_BERR_ACC		0x005C		/**< Bus Error Access Register (r)		*/
+#define PLDZ002_BERR_ACC_AM_MASK	(0x3f)		/**< VME addr modifier that caused bus error access  (bit[5:0]) */
+#define PLDZ002_BERR_RW_DIR		(1<<6)		/**< VME direction of bus error causing access (bit[6], 0=write, 1=read ) */
+#define PLDZ002_BERR_IACK		(1<<7)		/**< VME IACK state of bus error causing access (bit[7], 0=error during normal access, 1=during IACK ) */
+
 
 
 #if PLDZ002_REV < 17
