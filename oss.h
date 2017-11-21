@@ -318,14 +318,14 @@ typedef enum {
 /** Structure that describes address-window list nodes */
 typedef struct {
 	OSS_DL_NODE		n;
-	int32			fd;				/**< handle to opened device */
-	OSS_VME_WINTYPE winType;		/**< address-window type */
-	u_int64			vmeAddr;		/**< VMEbus addresses to map (from user) */
-	u_int32			locAddr;		/**< local address (translated) (should be u_int64?) */
-	u_int32			size;			/**< number of bytes to map (from user) */
+	int32			fd;			/**< handle to opened device */
+	OSS_VME_WINTYPE winType;			/**< address-window type */
+	long			vmeAddr;		/**< VMEbus addresses to map (from user) */
+	long			locAddr;		/**< local address (translated) */
+	long			size;			/**< number of bytes to map (from user) */
 	/* master exclusive usage */
 	u_int32			addrMode;		/**< OSS_VME_AM_X address mode (from user) */
-	u_int32			maxDataMode;	/**< OSS_VME_DM_max data mode (from user) */
+	u_int32			maxDataMode;		/**< OSS_VME_DM_max data mode (from user) */
 	u_int32			flags;			/**< flags (from user) */
 	u_int32			useNbr;			/**< number of usage */
 	/* slave exclusive usage */
@@ -507,9 +507,9 @@ typedef struct {
 /* merge the pci domain number into the pci bus number */
 #define OSS_MERGE_BUS_DOMAIN(bus, domain) \
 		(( bus & 0xff ) | ( ( domain & 0xff ) << 16 ))
-	
+
 #define OSS_BUS_NBR( merged_bus ) 		( merged_bus & 0xff )
-#define OSS_DOMAIN_NBR( merged_bus )	( ( merged_bus >> 16 ) & 0xff )							  
+#define OSS_DOMAIN_NBR( merged_bus )	( ( merged_bus >> 16 ) & 0xff )
 
 
 /*-----------------------------------------+
