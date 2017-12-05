@@ -248,10 +248,13 @@ typedef struct {
 /* macros to fill fields of PLDZ002_DMABD.flags */
 #define PLDZ002_DMABD_SRC(x)	((x)<<16)		/* source location (x is one of PLDZ002_DMABD_DIR_xxx) */
 #define PLDZ002_DMABD_DST(x)	((x)<<12)		/* dest location (x is one of PLDZ002_DMABD_DIR_xxx) */
+#define PLDZ002_DMABD_AM_A16D16	(0x1<<4)
 #define PLDZ002_DMABD_AM_A24D16	(0x0<<4)
+#define PLDZ002_DMABD_AM_A16D32	(0x5<<4)
 #define PLDZ002_DMABD_AM_A24D32	(0x4<<4)
 #define PLDZ002_DMABD_AM_A32D32	(0x6<<4)
 #define PLDZ002_DMABD_AM_A32D64	(0xe<<4)
+#define PLDZ002_DMABD_AM_A24D64	(0xc<<4)
 
 #define PLDZ002_DMABD_SWAP		0x10
 #define PLDZ002_DMABD_NOINC_SRC	0x04
