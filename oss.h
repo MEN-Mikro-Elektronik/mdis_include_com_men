@@ -6,7 +6,7 @@
  *        $Date: 2011/05/18 17:00:25 $
  *    $Revision: 1.54 $
  *
- *	   \project  MDIS4Linux
+ *	   \project  MDISforLinux
  *	     \brief  Operating System Services module interface
  *
  *     \switches (set in oss_os.h):
