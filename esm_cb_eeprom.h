@@ -10,17 +10,6 @@
  *
  *     Switches: -
  *
- *-------------------------------[ History ]---------------------------------
- *
- * $Log: esm_cb_eeprom.h,v $
- * Revision 3.2  2007/07/11 14:37:54  rt
- * added:
- * -support for switchable COMs (RS422,RS232,RS485)
- *
- * Revision 3.1  2006/01/05 14:34:39  cs
- * Initial Revision
- *
- *
  *---------------------------------------------------------------------------
  * (c) Copyright 2005 by MEN Mikro Elektronik GmbH, Nuremberg, Germany
  ******************************************************************************/

@@ -13,15 +13,6 @@
  *     Switches: _ONE_NAMESPACE_PER_DRIVER_
  *               _LL_DRV_
  *
- *-------------------------------[ History ]---------------------------------
- *
- * $Log: bb_isa.h,v $
- * Revision 2.2  2004/09/06 13:03:13  dpfeuffer
- * ISA_IO_GetEntry() prototype added
- *
- * Revision 2.1  2000/02/28 14:19:37  Schmidt
- * Initial Revision
- *
  *---------------------------------------------------------------------------
  * (c) Copyright 2000 by MEN mikro elektronik GmbH, Nuremberg, Germany 
  ******************************************************************************/

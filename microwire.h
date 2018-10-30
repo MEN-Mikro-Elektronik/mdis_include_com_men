@@ -9,18 +9,6 @@
  *  Description: microwire bus protocol interface
  *     Switches: MCRW_COMPILE - for module compilation
  *				 ID_SW		  - for swapped access
- *-------------------------------[ History ]---------------------------------
- *
- * $Log: microwire.h,v $
- * Revision 2.3  2000/03/08 14:01:54  kp
- * support swapped access
- *
- * Revision 2.2  1999/07/30 14:32:48  Franke
- * cosmetics
- *
- * Revision 2.1  1999/07/08 11:15:33  Franke
- * Initial Revision
- *
  *---------------------------------------------------------------------------
  * (c) Copyright 1999 by MEN mikro elektronik GmbH, Nuremberg, Germany 
  ******************************************************************************/

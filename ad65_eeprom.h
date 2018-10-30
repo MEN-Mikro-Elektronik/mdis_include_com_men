@@ -10,15 +10,6 @@
  *
  *     Switches: -
  *
- *-------------------------------[ History ]---------------------------------
- *
- * $Log: ad65_eeprom.h,v $
- * Revision 2.3  2005/06/23 15:54:54  kp
- * Copyright string changed (sbo)
- *
- * Revision 2.2  2002/09/30 13:43:36  ub
- * EEID_PD now in eeprod.h
- *
  *---------------------------------------------------------------------------
  * (c) Copyright 2002 by MEN Mikro Elektronik GmbH, Nuremberg, Germany
  ******************************************************************************/

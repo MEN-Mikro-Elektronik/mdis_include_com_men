@@ -12,50 +12,6 @@
  *     Switches: SYSP_EM09_VARIANT_A017 - A017 specific eeprom layout
  *               SYSP_EM09_VARIANT_XM50 - XM50 specific eeprom layout
  *
- *-------------------------------[ History ]---------------------------------
- *
- * $Log: em09_eeprom.h,v $
- * Revision 3.10  2009/11/20 20:00:39  rt
- * R: 1.) Support for EM9A.
- * M: 1.) Added mm_nspeed_3 parameter.
- *
- * Revision 3.9  2009/07/10 14:24:07  cs
- * R:1. vxBootline was written to wrong position in VxWorks for A17 and XM50
- *   2. most comments inside EEPROM structure where wrong/misleading
- * M:1. fixed EM09_SMB_SROM_VX to point to correct address for A17 and XM50
- *   2. fixed / refined comments regarding positions and size of EEPROM content
- *
- * Revision 3.8  2008/08/04 14:08:53  rt
- * R:1. Support for XM50 boards
- * M:1. Added SYSP_EM09_VARIANT_XM50 compiler switches
- *
- * Revision 3.7  2008/04/29 17:06:31  rt
- * added:
- * -mm_vme_irq
- *
- * Revision 3.6  2008/04/11 14:56:41  rt
- * added:
- * -mm_nspeed_3
- *
- * Revision 3.5  2008/01/14 18:40:26  cs
- * readded:
- *   + EM09_SMB_SROM_SIZE, EM09_SMB_SROM_VX
- *
- * Revision 3.4  2008/01/09 11:05:43  rt
- * added:
- * -SYSP_EM09_VARIANT_A017
- *
- * Revision 3.3  2007/09/21 13:43:51  rt
- * added:
- * -mm_selftest2
- *
- * Revision 3.2  2007/07/11 10:06:05  rt
- * reserved some space for more selftest flags
- *
- * Revision 3.1  2007/06/18 09:20:08  aw
- * Initial Revision
- *
- *
  *---------------------------------------------------------------------------
  * (c) Copyright 2007 by MEN Mikro Elektronik GmbH, Nuremberg, Germany
  ******************************************************************************/

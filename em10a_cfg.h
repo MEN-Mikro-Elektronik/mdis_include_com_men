@@ -10,17 +10,6 @@
  *
  *     Switches: TGT_HAM to setup the HAMILTON MM FLASH mapping
  *
- *-------------------------------[ History ]---------------------------------
- *
- * $Log: em10a_cfg.h,v $
- * Revision 1.2  2012/01/11 18:02:12  ts
- * R: support for EEPROD data of CPU was missing
- * M: added functionality in SYSPARAM2, added define for I2C address
- *
- * Revision 1.1  2011/10/10 17:40:43  ts
- * Initial Revision
- *
- *
  *---------------------------------------------------------------------------
  * (c) Copyright 2005..2005 by MEN Mikro Elektronik GmbH, Nuremberg, Germany
  ******************************************************************************/

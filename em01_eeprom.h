@@ -10,29 +10,6 @@
  *
  *     Switches: -
  *
- *-------------------------------[ History ]---------------------------------
- *
- * $Log: em01_eeprom.h,v $
- * Revision 3.6  2008/06/30 20:10:58  CSchuster
- * R: from EM1N and EM1A R1 1.2V is connected to LM81 as well
- * M: add 1.2V calibration value to LM81_PARMS group
- *
- * Revision 3.5  2008/06/27 15:02:20  ufranke
- * R: LM81 may be calibrated
- * M: used 7 byte of reserved EEPROM space for calibration values
- *
- * Revision 3.4  2005/06/24 08:19:26  kp
- * Copyright line changed (sbo)
- *
- * Revision 3.3  2005/04/12 16:56:05  kp
- * removed unused defines, + EM01_SMB_SROM_VX
- *
- * Revision 3.2  2005/03/16 16:35:18  kp
- * rewritten for 8kBit EEPROM
- *
- * Revision 3.1  2005/03/04 10:36:34  kp
- * Initial Revision
- *
  *---------------------------------------------------------------------------
  * (c) Copyright 2005..2005 by MEN Mikro Elektronik GmbH, Nuremberg, Germany
  ******************************************************************************/

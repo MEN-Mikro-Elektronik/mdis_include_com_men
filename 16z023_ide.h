@@ -10,18 +10,6 @@
  *                      
  *     Switches: -
  *
- *-------------------------------[ History ]---------------------------------
- *
- * $Log: 16z023_ide.h,v $
- * Revision 2.5  2005/06/23 16:03:21  kp
- * Copyright line changed
- *
- * Revision 2.4  2005/03/24 12:42:29  kp
- * + Z023_IDE_CTRL_NC define
- *
- * Revision 2.3  2005/02/02 16:36:13  kp
- * use official IP core naming
- *
  *---------------------------------------------------------------------------
  * (c) Copyright 2002-2005 by MEN Mikro Elektronik GmbH, Nuremberg, Germany 
  ******************************************************************************/

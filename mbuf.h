@@ -11,17 +11,6 @@
  *
  *     Switches: _NO_MBUF_HANDLE	don't declare MBUF_HANDLE
  *
- *-------------------------------[ History ]---------------------------------
- *
- * $Log: mbuf.h,v $
- * Revision 1.2  1998/04/17 15:40:12  see
- * MBUF_HANDLE: dbgHdl added
- * MBUF_HANDLE: as void* defined, real struct is defined only in mbuf.c
- * ifdef _NO_MBUF_HANDLE added
- *
- * Revision 1.1  1998/02/23 10:11:58  franke
- * initial
- *
  *---------------------------------------------------------------------------
  * (c) Copyright 1997 by MEN mikro elektronik GmbH, Nuremberg, Germany
  ******************************************************************************/

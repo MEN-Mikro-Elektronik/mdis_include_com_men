@@ -9,22 +9,6 @@
  *  Description: IOCTL interface MEMory driver (RBFLASH, MEN_PCMCIA)
  *                      
  *     Switches: 
- *-------------------------------[ History ]---------------------------------
- *
- * $Log: memioctl.h,v $
- * Revision 2.3  2008/11/11 18:20:35  rt
- * R:1. MenMon should always unlock flash blocks before
- *      updating. OS may lock flash blocks, after that
- *      updates in MenMon will fail. MenMon has to
- *      restore old lock entries after update!
- * M:1. Added MEM_IOCTL_FLASH_GET/SET_LOCK...
- *
- * Revision 2.2  2005/06/23 16:02:57  kp
- * Copyright line changed
- *
- * Revision 2.1  1998/08/12 16:35:49  kp
- * Added by mcvs
- *
  *---------------------------------------------------------------------------
  * (c) Copyright 1998 by MEN Mikro Elektronik GmbH, Nuremberg, Germany 
  ******************************************************************************/

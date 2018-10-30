@@ -9,14 +9,6 @@
  *  Description: globally visible Prototypes for EM10A VxWorks BSP 
  *     Switches: -
  *
- *-------------------------------[ History ]---------------------------------
- *
- * $Log: em10a_vxw_bsp.h,v $
- * Revision 3.1  2012/02/27 12:21:09  ts
- * Initial Revision
- *
- *
- *
  *---------------------------------------------------------------------------
  * (c) Copyright 2005 by MEN Mikro Elektronik GmbH, Nuremberg, Germany
  ******************************************************************************/

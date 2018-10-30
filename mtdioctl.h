@@ -9,25 +9,6 @@
  *  Description: IOCTL interface to Memory Technology drivers
  *                      
  *     Switches: 
- *-------------------------------[ History ]---------------------------------
- *
- * $Log: mtdioctl.h,v $
- * Revision 2.4  2008/11/11 18:21:58  rt
- * R:1. MenMon should always unlock flash blocks before
- *      updating. OS may lock flash blocks, after that
- *      updates in MenMon will fail. MenMon has to
- *      restore old lock entries after update!
- * M:1. Added MTD_IOCTL_FLASH_GET/SET_LOCK...
- *
- * Revision 2.3  2005/06/23 16:03:15  kp
- * Copyright line changed
- *
- * Revision 2.2  1998/08/12 16:35:51  kp
- * added comment to sectorSize.addr
- *
- * Revision 2.1  1998/06/18 11:14:03  kp
- * Added by mcvs
- *
  *---------------------------------------------------------------------------
  * (c) Copyright 1998 by MEN Mikro Elektronik GmbH, Nuremberg, Germany 
  ******************************************************************************/

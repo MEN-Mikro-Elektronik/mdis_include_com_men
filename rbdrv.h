@@ -10,18 +10,6 @@
  *                      
  *     Switches: COMPILE_RBDRV - when compiling a RB driver
  *
- *-------------------------------[ History ]---------------------------------
- *
- * $Log: rbdrv.h,v $
- * Revision 2.3  2005/06/23 16:02:52  kp
- * Copyright line changed
- *
- * Revision 2.2  1998/08/12 16:35:58  kp
- * Removed flags defines (now in rbdioctl.h)
- *
- * Revision 2.1  1998/06/18 11:14:08  kp
- * Added by mcvs
- *
  *---------------------------------------------------------------------------
  * (c) Copyright 1998 by MEN Mikro Elektronik GmbH, Nuremberg, Germany 
  ******************************************************************************/

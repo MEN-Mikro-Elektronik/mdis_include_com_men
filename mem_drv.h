@@ -10,21 +10,6 @@
  *                      
  *     Switches: COMPILE_MEMDRV
  *
- *-------------------------------[ History ]---------------------------------
- *
- * $Log: mem_drv.h,v $
- * Revision 1.4  2005/06/23 16:03:29  kp
- * Copyright line changed
- *
- * Revision 1.3  1998/08/12 16:36:01  kp
- * MEM_Init: Removed maxSize parameter
- *
- * Revision 1.2  1998/07/23 12:08:05  Franke
- * changed  MEM_HANDLE not longer void for extern now RBDRV_HANDLE
- *
- * Revision 1.1  1998/06/18 11:14:43  kp
- * Added by mcvs
- *
  *---------------------------------------------------------------------------
  * (c) Copyright 1998 by MEN Mikro Elektronik GmbH, Nuremberg, Germany 
  ******************************************************************************/
