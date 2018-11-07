@@ -10,53 +10,7 @@
  *
  *	   Switches: -
  */
-/*-------------------------------[ History ]---------------------------------
- *
- * $Log: tsi148.h,v $
- * Revision 3.10  2010/06/25 08:52:01  UFranke
- * R: gctrl, ga, revid wrong addresses
- * M: _TSI148_GCSR structure fixed
- *
- * Revision 3.9  2010/04/23 16:53:57  CKauntz
- * R: Mailbox bit offset in intex register not defined
- * M: Added define TSI148_INTEX_MB0_BIT  for Mailbox bit offset
- *
- * Revision 3.8  2009/06/03 19:35:29  rt
- * R: 1.) Missing defines.
- * M: 1.) TSI148_VMCTRL..., VCTRL_GTO..., TSI148_LM..., TSI148_INTEX..., TSI148_DCTL
- *        defines added
- *
- * Revision 3.7  2009/05/07 09:52:04  rt
- * R: 1) Not compilable with some flags.
- *     2) Code clean-up.
- * M: 1) Flags TSI148_DXAT_TYP_MASK and TSI148_DXAT_TM_MASK redefined.
- *     2) Comments changed.
- *
- * Revision 3.6  2009/04/30 22:10:11  rt
- * R: 1) Wrong register bit masks.
- *    2) Missing defines.
- * M: 1) TSI148_ITXAX_MASK_Axx fixed.
- *    2) TSI148_EDPAT_EDPCL and TSI148_OTOF_OFFL_MASK  added.
- *
- * Revision 3.5  2008/08/05 14:54:03  rt
- * R:1. Some of the defined values are wrong and may cause compiler errors
- * M:1. Removed leading '0' from integer values since C compiler will interpret
- *      them as octal values
- *
- * Revision 3.4  2008/08/01 12:54:39  cs
- * M: added some defines for location monitor and GCSR inbound mapping
- *
- * Revision 3.3  2008/07/29 22:23:07  cs
- * R: most defines of TSI148 chip registers where missing
- * M: added all necessary defines for chip registers
- *
- * Revision 3.2  2008/03/25 13:30:38  rt
- * GPL
- *
- * Revision 3.1  2008/01/09 13:54:17  rt
- * Initial Revision
- *
- *
+/*
  *---------------------------------------------------------------------------
  * (c) Copyright 2007-2008 by MEN Mikro	Elektronik GmbH, Nuremberg,	Germany
  ******************************************************************************/

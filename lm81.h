@@ -10,24 +10,7 @@
  *                      
  *     Switches: -
  */
-/*-------------------------------[ History ]---------------------------------
- *
- * $Log: lm81.h,v $
- * Revision 2.5  2006/04/13 18:34:38  rt
- * added some more bit descriptions
- *
- * Revision 2.4  2006/04/12 14:04:52  rt
- * extended mode regs added
- *
- * Revision 2.3  2005/06/24 08:19:34  kp
- * Copyright line changed (sbo)
- *
- * Revision 2.2  2004/02/26 11:44:52  UFranke
- * cosmetics
- *
- * Revision 2.1  2004/02/25 17:23:05  UFranke
- * Initial Revision
- *
+/*
  *---------------------------------------------------------------------------
  * (c) Copyright 2004 by MEN Mikro Elektronik GmbH, Nuremberg, Germany 
  ******************************************************************************/

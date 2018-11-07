@@ -11,28 +11,7 @@
 *
 *    \switches  ---
 */
-/*-------------------------------[ History ]--------------------------------
-*
-* $Log: wdog.h,v $
-* Revision 2.6  2006/05/26 15:08:34  DPfeuffer
-* cosmetics
-*
-* Revision 2.5  2005/12/22 14:42:35  dpfeuffer
-* comments now in doxygen style
-*
-* Revision 2.4  2004/09/02 13:41:42  AJendrusch
-* cosmetics
-*
-* Revision 2.3  2000/05/11 13:13:23  Schmidt
-* Set-/GetStat codes mapped to low-level driver profile range
-*
-* Revision 2.2  1999/08/03 16:42:02  Schmidt
-* WDOG_SHOT code added
-*
-* Revision 2.1  1999/06/23 12:03:25  Schmidt
-* Initial Revision
-*
-*---------------------------------------------------------------------------
+/*
 * (c) Copyright 1999 by MEN mikro elektronik GmbH, Nuernberg, Germany
 ****************************************************************************/
 

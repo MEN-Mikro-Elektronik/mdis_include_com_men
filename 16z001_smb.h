@@ -10,30 +10,7 @@
  *
  *     Switches: none
  */
-/*-------------------------------[ History ]---------------------------------
- *
- * $Log: 16z001_smb.h,v $
- * Revision 3.5  2009/07/28 14:32:43  sy
- * add support to 64-bit aligned register address mapping
- *
- * Revision 3.4  2008/06/30 18:09:29  CSchuster
- * R: defines of BYPASS register bits where missing
- * M: added defines for BYPASS reister bits
- *
- * Revision 3.3  2007/01/05 17:28:45  cs
- * added:
- *   + define for I2C command
- *   + define of STS_INUSE bit
- * fixed:
- *   - don't include STS_INUSE in STS_CLEAR
- *
- * Revision 3.2  2006/08/18 08:54:11  rla
- * Cosmetic
- *
- * Revision 3.1  2005/11/25 12:06:03  cschuster
- * Initial Revision
- *
- *
+/*
  *---------------------------------------------------------------------------
  * (c) Copyright 2005 by MEN Mikro Elektronik GmbH, Nuremberg, Germany
  ******************************************************************************/

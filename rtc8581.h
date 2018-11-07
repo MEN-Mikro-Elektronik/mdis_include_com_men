@@ -10,27 +10,7 @@
  *
  *     Switches: -
  */
-/*-------------------------------[ History ]---------------------------------
- *
- * $Log: rtc8581.h,v $
- * Revision 2.5  2014/10/10 11:57:11  channoyer
- * R: Changes in source from QNX
- * M: Import QNX changes
- *
- * Revision 2.4  2012/09/17 17:36:02  sma
- * R: Error constant RTC8581_SMB_ADDR redefined here
- * M: Constant defined, only if not already available
- *
- * Revision 2.3  2009/02/05 10:57:59  rt
- * R:1. Add support for Linux RTC-Class driver.
- * M:1. Add RTC8581_FLAG_UF define.
- *
- * Revision 2.2  2005/06/24 08:19:30  kp
- * Copyright line changed (sbo)
- *
- * Revision 2.1  2004/03/01 09:06:28  kp
- * Initial Revision
- *
+/*
  *---------------------------------------------------------------------------
  * (c) Copyright 2004 by MEN Mikro Elektronik GmbH, Nuremberg, Germany
  *

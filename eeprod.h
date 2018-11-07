@@ -10,41 +10,7 @@
  *
  *    \switches  none
  */
-/*-------------------------------[ History ]---------------------------------
- *
- * $Log: eeprod.h,v $
- * Revision 2.10  2011/09/30 10:42:27  ts
- * R: definitions for Z87 MAC EEPROMs were missing
- * M: added struct EEPROD_MAC for format of MAC address storage in such EEPROMs
- *
- * Revision 2.9  2010/07/28 12:40:31  sy
- * R: The description for CRC algorithm is missing
- * M: Add information for CRC algorithm
- *
- * Revision 2.8  2010/07/28 11:33:34  sy
- * R: Comment is not complied with Doxygen standard
- * M: Re-format comments to comply with Doxygen standard
- *
- * Revision 2.7  2010/07/27 17:10:58  sy
- * R:For EEPROD3 structure, Menmon vairant for RDE project and standard products requires different structure layout
- * M: Add compiler switch to distinguish these 2 variants
- *
- * Revision 2.6  2010/06/07 16:06:49  sy
- * add definition of EEPROD3 structure
- *
- * Revision 2.5  2006/02/07 08:54:37  rla
- * Fix Comment for Production Date Interpretation
- *
- * Revision 2.4  2005/06/23 15:54:56  kp
- * Copyright string changed (sbo)
- *
- * Revision 2.3  2004/01/08 09:07:02  kp
- * 1) doxygenized
- * 2) added EEPROD2 header
- *
- * Revision 2.2  2002/09/30 13:43:40  ub
- * EEID_PD added
- *
+/*
  *---------------------------------------------------------------------------
  * (c) Copyright 2002-2006 by MEN Mikro Elektronik GmbH, Nuremberg, Germany
  ******************************************************************************/

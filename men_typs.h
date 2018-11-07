@@ -22,13 +22,7 @@
  *               - _UCC
  *               - _TYPES_H
  */
-/*-------------------------------[ History ]---------------------------------
- *
- * $Log: men_typs.h,v $
- * Revision 1.32  2014/04/07 15:25:58  dpfeuffer
- * R: doxygen documentation for 13bl50w70 sw requires men_typs.h
- * M: comments completely revised
- *
+/*
  *---------------------------------------------------------------------------
  * Copyright (c) 1997-2234 MEN Mikro Elektronik GmbH. All rights reserved.
  ******************************************************************************/

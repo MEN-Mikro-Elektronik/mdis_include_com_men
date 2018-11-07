@@ -9,15 +9,7 @@
  *     Switches: CHAMELEON_CODES_ONLY -
  *               if set, don't include typedefs and prototypes
  */
-/*-------------------------------[ History ]---------------------------------
- *
- * ts: last CVS log message so the origin of the header file is known...
- *
- * $Log: chameleon.h,v $
- * Revision 3.35  2014/02/19 12:41:26  ts
- * R: minRevision within other CHAMELEONV2_TABLE members broke table parsing
- *    (IC filename) in 10EM10A16 VxWorks when used with prebuilt MDIS object.
- * M: moved minRevision at end of struct, replaced reserved member with it
+/*
  *---------------------------------------------------------------------------
  * (c) Copyright 2015 by MEN Mikro Elektronik GmbH, Nuremberg, Germany
  ******************************************************************************/

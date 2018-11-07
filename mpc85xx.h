@@ -13,43 +13,7 @@
  *    \switches MPC85XX_FOR_8540 - turn on register layout for 8540,
  *									  otherwise it's 8560
  */
-/*-------------------------------[ History ]---------------------------------
- *
- * $Log: mpc85xx.h,v $
- * Revision 2.9  2014/08/20 10:17:54  gleonhardt
- * M: Add DDR control driver register
- *
- * Revision 2.8  2008/11/18 10:34:48  cs
- * R: added support for 2nd I2C controller in EM9 VxWorks BSP
- * M: added  define MPC85XX_I2C_REG_BLK_SIZE
- *
- * Revision 2.7  2008/02/29 17:45:24  cs
- * R: 1. add support for A17 VME
- * M: 1. add defines for MPC85XX PCI EDR
- *
- * Revision 2.6  2008/01/22 15:58:12  cs
- * added:
- *   + some bit masks for GPIOCR, GPOUTDR
- *
- * Revision 2.5  2007/07/02 18:10:30  rt
- * added:
- * - timing_cfg0/3
- * - sdram_cfg_2
- * - rstcr
- *
- * Revision 2.4  2007/02/27 20:21:48  rt
- * added:
- * -PCI2 registers and more
- *
- * Revision 2.3  2005/06/24 08:26:24  kp
- * Copyright line changed (sbo)
- *
- * Revision 2.2  2005/05/25 09:47:56  kp
- * + TSEC fifo_tx_thold_dbg
- *
- * Revision 2.1  2004/11/04 17:30:17  kp
- * Initial Revision
- *
+/*
  *---------------------------------------------------------------------------
  * (c) Copyright 2004 by MEN Mikro Elektronik GmbH, Nuremberg, Germany
  ******************************************************************************/
