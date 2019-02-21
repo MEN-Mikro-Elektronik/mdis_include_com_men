@@ -15,7 +15,7 @@
  */
 /*
  *---------------------------------------------------------------------------
- * (c) Copyright 2008-2009 by MEN Mikro Elektronik GmbH, Nueremberg, Germany 
+ * Copyright (c) 2008-2019, MEN Mikro Elektronik GmbH
  ******************************************************************************/
 /*
  * This program is free software: you can redistribute it and/or modify

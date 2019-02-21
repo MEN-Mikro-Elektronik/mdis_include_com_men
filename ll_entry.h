@@ -10,25 +10,9 @@
  *
  *     Switches: -
  *
- *-------------------------------[ History ]---------------------------------
- *
- * $Log: ll_entry.h,v $
- * Revision 1.4  2008/08/22 10:22:39  CKauntz
- * changed getstat arg INT32_OR_64 for 64BIT
- *
- * Revision 1.3  2008/01/18 14:24:43  ufranke
- * changed
- *  - prepared for 64bit OS
- *  - setStat arg INT32_OR_64 now
- *
- * Revision 1.2  1998/06/02 11:00:17  see
- * cosmetics (headers)
- *
- * Revision 1.1  1998/02/19 09:12:23  franke
- * initial
  *
  *---------------------------------------------------------------------------
- * (c) Copyright 1997..2008 by MEN mikro elektronik GmbH, Nuremberg, Germany
+ * Copyright (c) 1997-2019, MEN Mikro Elektronik GmbH
  ******************************************************************************/
 /*
  * This program is free software: you can redistribute it and/or modify

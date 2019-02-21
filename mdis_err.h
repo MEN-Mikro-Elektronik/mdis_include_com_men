@@ -11,7 +11,7 @@
  *     Switches: HPRT LYNX OS9 MSDOS WINNT VXWORKS MENMON LINUX
  *
  *---------------------------------------------------------------------------
- * (c) Copyright 1997 by MEN Mikro Elektronik GmbH, Nuremberg, Germany
+ * Copyright (c) 1997-2019, MEN Mikro Elektronik GmbH
  ******************************************************************************/
 /*
  * This program is free software: you can redistribute it and/or modify

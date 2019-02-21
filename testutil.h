@@ -10,27 +10,9 @@
  *
  *     Switches: ANSI_C or _ANSI_EXT
  *
- *-------------------------------[ History ]---------------------------------
- *
- * $Log: testutil.h,v $
- * Revision 1.5  2009/01/14 10:36:48  MRoth
- * added missing prototype tu_init_screen_pos for the screen.c module
- * of the "MTest for Windows" tool
- *
- * Revision 1.4  2000/10/12 14:49:00  ww
- * added missing prototypes tu_init_keys and tu_exit_keys.
- *
- * Revision 1.3  2000/01/12 10:57:46  kp
- * ported to VxWorks
- *
- * Revision 1.2  1999/07/30 14:52:30  kp
- * added missing prototype for tu_print_revers
- *
- * Revision 1.1  1996/12/19 14:15:07  kp
- * Initial revision
  *
  *---------------------------------------------------------------------------
- * (c) Copyright 1995 by MEN mikro elektronik GmbH, Nuremberg, Germany
+ * Copyright (c) 1995-2019, MEN Mikro Elektronik GmbH
  ******************************************************************************/
 /*
  * This program is free software: you can redistribute it and/or modify

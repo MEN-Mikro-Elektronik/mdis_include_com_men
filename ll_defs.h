@@ -10,18 +10,9 @@
  *
  *     Switches: _NO_LL_HANDLE	exclude LL_HANDLE declaration
  *
- *-------------------------------[ History ]---------------------------------
- *
- * $Log: ll_defs.h,v $
- * Revision 1.2  1998/06/02 11:00:14  see
- * ifdef _NO_LL_HANDLE added to exclude LL_HANDLE declaration
- * LL_INFO_LOCKMODE defines added
- *
- * Revision 1.1  1998/02/19 09:12:37  franke
- * initial
  *
  *---------------------------------------------------------------------------
- * (c) Copyright 1997 by MEN mikro elektronik GmbH, Nuremberg, Germany
+ * Copyright (c) 1997-2019, MEN Mikro Elektronik GmbH
  ******************************************************************************/
 /*
  * This program is free software: you can redistribute it and/or modify

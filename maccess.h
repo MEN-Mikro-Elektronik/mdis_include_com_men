@@ -13,7 +13,7 @@
  *               MAC_SHARC_TB		access with SHARC toolbox
  *
  *---------------------------------------------------------------------------
- * (c) Copyright 1998 by MEN Mikro Elektronik GmbH, Nuremberg, Germany
+ * Copyright (c) 1998-2019, MEN Mikro Elektronik GmbH
  ******************************************************************************/
 /*
  * This program is free software: you can redistribute it and/or modify

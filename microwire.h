@@ -10,7 +10,7 @@
  *     Switches: MCRW_COMPILE - for module compilation
  *				 ID_SW		  - for swapped access
  *---------------------------------------------------------------------------
- * (c) Copyright 1999 by MEN mikro elektronik GmbH, Nuremberg, Germany 
+ * Copyright (c) 1999-2019, MEN Mikro Elektronik GmbH
  ******************************************************************************/
 /*
  * This program is free software: you can redistribute it and/or modify
