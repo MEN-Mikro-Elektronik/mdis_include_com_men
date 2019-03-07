@@ -10,14 +10,8 @@
  *
  *     Switches: -
  *
- *-------------------------------[ History ]---------------------------------
- *
- * $Log: pci9050.h,v $
- * Revision 2.1  1999/09/08 09:30:31  Schmidt
- * Initial Revision
- *
  *---------------------------------------------------------------------------
- * (c) Copyright 1999 by MEN mikro elektronik GmbH, Nuremberg, Germany
+ * Copyright (c) 1999-2019, MEN Mikro Elektronik GmbH
  ******************************************************************************/
 /*
  * This program is free software: you can redistribute it and/or modify

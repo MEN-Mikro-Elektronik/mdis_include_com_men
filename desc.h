@@ -10,21 +10,8 @@
  *
  *     Switches: -
  *
- *-------------------------------[ History ]---------------------------------
- *
- * $Log: desc.h,v $
- * Revision 1.3  1998/05/29 16:49:07  see
- * descriptor types added (defs)
- *
- * Revision 1.2  1998/04/17 15:38:44  see
- * DESC_MAX_KEYLEN added (resized from 4096 to 256)
- * missing prototypes for DESC_DbgLevelGet/Set added
- *
- * Revision 1.1  1998/02/23 09:41:18  franke
- * initial
- *
  *---------------------------------------------------------------------------
- * (c) Copyright 1998 by MEN mikro elektronik GmbH, Nuremberg, Germany
+ * Copyright (c) 1998-2019, MEN Mikro Elektronik GmbH
  ******************************************************************************/
 /*
  * This program is free software: you can redistribute it and/or modify

@@ -10,15 +10,9 @@
  *
  *     
  */
-/*-------------------------------[ History ]---------------------------------
- *
- * $Log: men_id.h,v $
- * Revision 3.1  2009/04/07 11:04:08  MKolpak
- * Initial Revision
- *
- *
+/*
  *---------------------------------------------------------------------------
- * (c) Copyright 2009 by MEN Mikro Elektronik GmbH, Nuremberg, Germany
+ * Copyright (c) 2009-2019, MEN Mikro Elektronik GmbH
  ******************************************************************************/
 /*
  * This program is free software: you can redistribute it and/or modify

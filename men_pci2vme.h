@@ -11,17 +11,8 @@
  *                      
  *     Switches: -
  *
- *-------------------------------[ History ]---------------------------------
- *
- * $Log: men_pci2vme.h,v $
- * Revision 2.2  2001/04/04 13:32:19  kp
- * adapted: bridge now using only BAR0
- *
- * Revision 2.1  2000/11/21 09:48:33  kp
- * Initial Revision
- *
  *---------------------------------------------------------------------------
- * (c) Copyright 2000 by MEN mikro elektronik GmbH, Nuremberg, Germany 
+ * Copyright (c) 2000-2019, MEN Mikro Elektronik GmbH
  ******************************************************************************/
 /*
  * This program is free software: you can redistribute it and/or modify

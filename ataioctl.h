@@ -10,27 +10,8 @@
  *
  *     Switches: -
  *
- *-------------------------------[ History ]---------------------------------
- *
- * $Log: ataioctl.h,v $
- * Revision 2.6  2007/01/05 17:33:20  cs
- * added:
- *   + define ATA_IOCTL_GET_DRV_STAT
- *
- * Revision 2.5  2005/07/26 16:32:38  kp
- * enhanced for ATA6
- *
- * Revision 2.3  2004/02/18 15:15:28  kp
- * added ATA_IOCTL_REGTEST
- *
- * Revision 2.2  2002/06/05 14:51:59  kp
- * some defs for UDMA and LBA added
- *
- * Revision 2.1  1998/06/18 11:13:56  kp
- * Added by mcvs
- *
  *---------------------------------------------------------------------------
- * (c) Copyright 1998 by MEN mikro elektronik GmbH, Nuremberg, Germany
+ * Copyright (c) 1998-2019, MEN Mikro Elektronik GmbH
  ******************************************************************************/
 /*
  * This program is free software: you can redistribute it and/or modify

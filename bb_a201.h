@@ -12,35 +12,8 @@
  *                _LL_DRV_
  *				  B201
  *				  B202	
- *-------------------------------[ History ]---------------------------------
- *
- * $Log: bb_a201.h,v $
- * Revision 1.7  2004/07/30 11:36:56  ufranke
- * fixed
- *  - function name GetEntry
- *
- * Revision 1.6  2004/06/21 16:32:49  dpfeuffer
- * changes for swapped variants
- *
- * Revision 1.5  1999/07/07 17:02:36  Franke
- * added   prototypes B201_GetEntry, B202_GetEntry
- * changed only A201/B201/B202_GetEntry are extern now
- *
- * Revision 1.4  1999/05/25 11:00:01  kp
- * added B201/B202 support
- *
- * Revision 1.3  1999/03/31 13:07:33  Schmidt
- * prototype A201_ExpEnable added
- * prototype A201_ExpSrv added
- *
- * Revision 1.2  1998/07/31 15:54:32  see
- * A201_ClrMIface prototype added
- *
- * Revision 1.1  1998/02/19 13:28:56  franke
- * Added by mcvs
- *
  *---------------------------------------------------------------------------
- * (c) Copyright 1997 by MEN mikro elektronik GmbH, Nuremberg, Germany
+ * Copyright (c) 1997-2019, MEN Mikro Elektronik GmbH
  ******************************************************************************/
 /*
  * This program is free software: you can redistribute it and/or modify

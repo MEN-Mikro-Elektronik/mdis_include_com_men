@@ -8,37 +8,8 @@
  *
  *  Description: MII definitions for Ethernet PHY's
  *     Switches: -
- *-------------------------------[ History ]---------------------------------
- *
- * $Log: ether_mii.h,v $
- * Revision 2.7  2008/12/18 11:04:20  cs
- * R: 1. some defines for MII_ANEG_LINK register and
- *         Marvel 88E1145 PHY where missing
- * M: 1. added missing defines
- *
- * Revision 2.6  2007/07/11 14:38:39  rt
- * added:
- * - ETHER_MII_MAR_88E1145_1000T_CTRL
- * - ETHER_MII_MAR_88E1145_EXT_ADDR
- *
- * Revision 2.5  2005/07/05 12:28:39  kp
- * added more regs for marvell 88E1145
- *
- * Revision 2.4  2005/06/23 16:11:18  kp
- * Copyright line changed (sbo)
- *
- * Revision 2.3  2005/02/08 13:04:51  ufranke
- * added
- *  + ETHER_MII_CONTROL_SPEED_SEL_1000
- *
- * Revision 2.2  2004/11/29 10:46:11  kp
- * added more defs
- *
- * Revision 2.1  2001/10/23 14:22:52  Franke
- * Initial Revision
- *
  *---------------------------------------------------------------------------
- * (c) Copyright 2001 by MEN Mikro Elektronik GmbH, Nuremberg, Germany
+ * Copyright (c) 2001-2019, MEN Mikro Elektronik GmbH
  ******************************************************************************/
 /*
  * This program is free software: you can redistribute it and/or modify

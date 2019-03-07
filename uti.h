@@ -10,41 +10,23 @@
  *                      
  *     Switches: _ANSI_EXT or __STDC__: include prototypes
  *
- *-------------------------------[ History ]---------------------------------
- *
- * $Log: uti.h,v $
- * Revision 1.10  2001/08/07 18:34:15  ww
- * added illiopt() function prototype
- *
- * Revision 1.9  1999/07/30 11:58:04  kp
- * worked around problem with pause()
- *
- * Revision 1.8  1999/03/23 11:09:36  see
- * void added in prototypes with no args
- *
- * Revision 1.7  1997/04/09 15:16:23  kp
- * added some macros
- *
- * Revision 1.6  1996/11/13 10:04:41  see
- * prototype added
- *
- * Revision 1.5  95/08/22  10:03:42  kp
- * added prototype for installnam().
- * 
- * Revision 1.4  94/04/25  17:08:30  kp
- * changed again prototype for ask()
- * 
- * Revision 1.3  94/04/25  17:03:06  kp
- * changed bad prototype for ask()
- * 
- * Revision 1.2  94/04/22  15:54:14  kp
- * added prototype for ofdump()
- * 
- * Revision 1.1  94/04/18  16:08:37  kp
- * Initial revision
  *---------------------------------------------------------------------------
- * (c) Copyright 1993 by MEN mikro elektronik GmbH, Nuernberg, Germany 
+ * Copyright (c) 1993-2019, MEN Mikro Elektronik GmbH
  ****************************************************************************/
+ /*
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
 
 
 #if !defined(__STDC__) && !defined(_ANSI_EXT)

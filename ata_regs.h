@@ -10,26 +10,8 @@
  *
  *     Switches: -
  *
- *-------------------------------[ History ]---------------------------------
- *
- * $Log: ata_regs.h,v $
- * Revision 2.6  2008/05/05 10:27:22  cs
- * added define ATA_DMA_ULTRA_6
- *
- * Revision 2.5  2005/07/26 16:32:36  kp
- * + commands for 48 bit addressing
- *
- * Revision 2.3  2004/05/27 09:06:25  kp
- * added UDMA 3..5
- *
- * Revision 2.2  2002/06/05 14:51:57  kp
- * some defs for UDMA and LBA added
- *
- * Revision 2.1  1998/06/18 11:13:54  kp
- * Added by mcvs
- *
  *---------------------------------------------------------------------------
- * (c) Copyright 1998 by MEN mikro elektronik GmbH, Nuremberg, Germany
+ * Copyright (c) 1998-2019, MEN Mikro Elektronik GmbH
  ******************************************************************************/
 /*
  * This program is free software: you can redistribute it and/or modify

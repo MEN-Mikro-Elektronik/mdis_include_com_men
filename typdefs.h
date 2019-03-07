@@ -20,95 +20,23 @@
  *					INTEL, MOTOROLA			processor flags	(->byte order)
  *					PCBUS, VMEBUS			bus flags		(->byte address)
  *
- *-------------------------------[ History ]---------------------------------
- *
- * $Log: typdefs.h,v $
- * Revision 2.1  2003/05/26 11:45:18  ub
- * Initial Revision
- *
- * Revision 1.26  1998/06/24 17:45:41  see
- * ifndef VOLATILE added since problems when including men_typs.h
- *
- * Revision 1.25  1998/01/21 11:20:01  kp
- * inhibit alternate u_char.. types for HPRT
- *
- * Revision 1.24  1997/06/02 17:18:01  see
- * _NO_ADDR_MASK switch added to inhibit address masking
- * (this allows accessing odd and even byte addresses via HwReg8)
- *
- * Revision 1.23  1997/04/11 09:51:25  see
- * VXWORKS switch added
- *
- * Revision 1.22  1997/04/08 11:42:23  kp
- * MkReg: VOLATILE added
- * HwReg8 (VMEBUS): make odd
- * HwReg16: make word aligned
- * HwReg32: make long aligned
- *
- * Revision 1.21  1996/11/29 09:19:34  kp
- * Added volatile macros (kp)
- *
- * Revision 1.20  1995/08/07 13:59:35  see
- * OS9: include types.h only if _UCC (to allow compiling with non-UCC)
- *
- * Revision 1.19  95/03/28  16:23:41  see
- * NL definitions for MSDOS and HPRT added
- *
- * Revision 1.18  95/02/15  09:46:56  kp
- * added PROTO macro (ifdef _ANSI_C)
- *
- * Revision 1.17  94/11/23  10:04:35  kp
- * changed include algorithm for types.h slightly
- *
- * Revision 1.16  94/08/15  11:01:55  see
- * OS9: include types.h if _TYPES_H not defined
- *
- * Revision 1.15  94/04/13  15:38:17  Seeberger
- * check _TYPES_H identifiers also for alternate integer types
- *
- * Revision 1.14  94/03/02  11:31:47  Seeberger
- * _TYPEDEFS_H identifier added
- * check _TYPES_H identifiers for OS-9 integer types
- * old style integers are now converted
- * alternate integers are now typedef's
- *
- * Revision 1.13  93/10/13  14:51:51  Seeberger
- * HPRT switch added
- *
- * Revision 1.12  93/09/28  11:04:33  Seeberger
- * Reg8 (PCBUS): make even by &~1 instead -1
- *
- * Revision 1.11  93/09/10  11:44:44  Seeberger
- * int8..int32, u_int8..u_int32 types now macros
- * u_char..u_long macros added
- *
- * Revision 1.10  93/09/08  16:49:20  Seeberger
- * HwReg32 macro added
- *
- * Revision 1.9  93/08/19  15:25:42  Seeberger
- * bug fixed, NL character define
- *
- * Revision 1.8  93/05/07  11:14:59  Seeberger
- * #ifndef true/false,TRUE/FALSE added
- *
- * Revision 1.7  93/03/01  12:59:17  Seeberger
- * switches OS9, MOTOROLA, VMEBUS set
- * INTEL, MOTOROLA changed
- * PCBUS, VMEBUS added
- * HwReg() types added
- * InSet() macro added
- * macro MSDOS added
- * macro NL added
- *
- * Revision 1.2  92/11/23  09:24:48  Seeberger
- * alternate int types added
- *
- * Revision 1.1  92/10/22  09:18:52  Seeberger
- * Initial revision
- *
  *---------------------------------------------------------------------------
- * (c) Copyright 1992-1994 by MEN mikro elektronik GmbH, Nuernberg, Germany
+ * Copyright (c) 1992-2019, MEN Mikro Elektronik GmbH
  ****************************************************************************/
+ /*
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
 
 #ifndef _TYPEDEFS_H
 #define _TYPEDEFS_H

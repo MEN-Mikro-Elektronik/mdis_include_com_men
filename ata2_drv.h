@@ -10,36 +10,8 @@
  *
  *     Switches:
  *
- *-------------------------------[ History ]---------------------------------
- *
- * $Log: ata2_drv.h,v $
- * Revision 3.7  2008/09/05 11:21:13  cs
- * R: added support for PCI2SATA bridge SiI3114
- * M: added prototype for ATA2_chipsetSiI31xxSata
- *
- * Revision 3.6  2007/02/14 17:08:26  rla
- * Cosmetic removed BOOL type to support MENMON using
- *
- * Revision 3.5  2007/01/05 17:32:20  cs
- * added:
- *   + prototypes for chipset specific irq pre- and post processing routines
- *   + defines for ATA2_DRIVE_STATE_T and -CHIPSET_INT_STAT_T and -CHIPSET_ARG_T
- *
- * Revision 3.4  2006/10/17 13:51:51  ub
- * cosmetics
- *
- * Revision 3.3  2005/11/09 18:17:58  UFranke
- * added
- *  + Chipset Common IDE
- *
- * Revision 3.2  2005/09/01 08:44:42  kp
- * + ATA2_chipset16Z016Ide
- *
- * Revision 3.1  2005/08/31 14:55:12  kp
- * Initial Revision
- *
  *---------------------------------------------------------------------------
- * (c) Copyright 2005 by MEN mikro elektronik GmbH, Nuremberg, Germany
+ * Copyright (c) 2005-2019, MEN Mikro Elektronik GmbH
  ******************************************************************************/
 /*
  * This program is free software: you can redistribute it and/or modify

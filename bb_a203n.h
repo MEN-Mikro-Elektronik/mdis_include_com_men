@@ -11,14 +11,9 @@
  *    \switches  _ONE_NAMESPACE_PER_DRIVER_
  *				  _LL_DRV_
  */
- /*-------------------------------[ History ]--------------------------------
- *
- * $Log: bb_a203n.h,v $
- * Revision 3.1  2005/08/03 12:04:02  dpfeuffer
- * Initial Revision
- *
+ /*
  *---------------------------------------------------------------------------
- * (c) Copyright by MEN Mikro Elektronik GmbH, Nuremberg, Germany
+ * Copyright (c) 2019, MEN Mikro Elektronik GmbH
  ******************************************************************************/
 /*
  * This program is free software: you can redistribute it and/or modify

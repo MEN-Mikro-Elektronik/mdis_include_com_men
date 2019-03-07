@@ -10,66 +10,8 @@
  *
  *     Switches: _NO_BBIS_HANDLE	exclude BBIS_HANDLE declaration
  *
- *-------------------------------[ History ]---------------------------------
- *
- * $Log: bb_defs.h,v $
- * Revision 1.16  2011/05/18 16:50:25  CRuff
- * R: support of pci domains
- * M: added new CFGINFO identifier: BBIS_CFGINFO_PCI_DOMAIN
- *
- * Revision 1.15  2011/01/19 09:36:26  dpfeuffer
- * R: board handle dependent address space type required (e.g. for chameleon BBIS)
- * M: BBIS_CFGINFO_ADDRSPACE define added
- *
- * Revision 1.14  2010/02/24 14:23:44  dpfeuffer
- * R: BBIS_BRDINFO_BRDNAME_MAXSIZE too small for smbpci_16z001 bbis
- *    (causes BAD_POOL_HEADER BSOD under Windows)
- * M: BBIS_BRDINFO_BRDNAME_MAXSIZE changed from 20 to 80 chars
- *
- * Revision 1.13  2005/06/10 15:18:55  ts
- * corrected wrong empty string BBIS_SLOT_STR_UNK to "" ,not '\0'.
- * caused kernel oops.
- *
- * Revision 1.12  2004/05/24 10:27:46  dpfeuffer
- * BBIS_BRDINFO_BRDNAME_MAXSIZE changed
- *
- * Revision 1.11  2003/04/30 17:19:59  dschmidt
- * BBIS_CFGINFO_PCI_FUNCNBR added
- *
- * Revision 1.10  2003/01/28 16:17:23  dschmidt
- * defines for slot information added
- *
- * Revision 1.9  1999/08/05 16:11:05  kp
- * changed BBIS_BRDINFO_PCI_DEVNBR to BBIS_CFGINFO_PCI_DEVNBR
- *
- * Revision 1.8  1999/07/26 15:57:45  Schmidt
- * BBIS_BRDINFO_PCI_DEVNBR added
- * BBIS_BRDINFO_DEVBUSTYPE added
- *
- * Revision 1.7  1999/03/24 16:52:28  Schmidt
- * BBIS_BRDINFO_ADDRSPACE added
- *
- * Revision 1.6  1998/06/18 14:19:27  Franke
- * added  BBIS_SLOTS_ONBOARDDEVICE_START
- *
- * Revision 1.5  1998/06/02 11:00:08  see
- * ifdef _NO_BBIS_HANDLE added to exclude BBIS_HANDLE declaration
- * BBIS_IRQ_NONE added
- *
- * Revision 1.4  1998/04/14 16:10:17  Schmidt
- * BBIS_IRQ_EXCLUSIVE (0x0004) added, BBIS_IRQ_SHARED set to 0x0008
- *
- * Revision 1.3  1998/04/14 15:03:48  Schmidt
- * BBIS_IRQ_EXCLUSIVE removed
- *
- * Revision 1.2  1998/04/14 14:53:22  Schmidt
- * BBIS_BRDINFO_INTERRUPTS, BBIS_IRQ_DEVIRQ, BBIS_IRQ_EXPIRQ added
- *
- * Revision 1.1  1998/02/19 09:14:27  franke
- * initial
- *
  *---------------------------------------------------------------------------
- * (c) Copyright 1997 by MEN mikro elektronik GmbH, Nuremberg, Germany
+ * Copyright (c) 1997-2019, MEN Mikro Elektronik GmbH
  ******************************************************************************/
 /*
  * This program is free software: you can redistribute it and/or modify

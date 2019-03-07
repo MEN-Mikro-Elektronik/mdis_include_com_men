@@ -10,31 +10,24 @@
 *               - Watchdog specific status codes
 *
 *    \switches  ---
-*/
-/*-------------------------------[ History ]--------------------------------
-*
-* $Log: wdog.h,v $
-* Revision 2.6  2006/05/26 15:08:34  DPfeuffer
-* cosmetics
-*
-* Revision 2.5  2005/12/22 14:42:35  dpfeuffer
-* comments now in doxygen style
-*
-* Revision 2.4  2004/09/02 13:41:42  AJendrusch
-* cosmetics
-*
-* Revision 2.3  2000/05/11 13:13:23  Schmidt
-* Set-/GetStat codes mapped to low-level driver profile range
-*
-* Revision 2.2  1999/08/03 16:42:02  Schmidt
-* WDOG_SHOT code added
-*
-* Revision 2.1  1999/06/23 12:03:25  Schmidt
-* Initial Revision
 *
 *---------------------------------------------------------------------------
-* (c) Copyright 1999 by MEN mikro elektronik GmbH, Nuernberg, Germany
+* Copyright (c) 1999-2019, MEN Mikro Elektronik GmbH
 ****************************************************************************/
+/*
+* This program is free software: you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation, either version 2 of the License, or
+* (at your option) any later version.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU General Public License for more details.
+*
+* You should have received a copy of the GNU General Public License
+* along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
 
 #ifndef _WDOG_H
 #define _WDOG_H

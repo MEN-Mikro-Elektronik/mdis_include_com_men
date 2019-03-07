@@ -10,41 +10,8 @@
  *
  *     Switches: -
  *
- *-------------------------------[ History ]---------------------------------
- *
- * $Log: 16z044_disp.h,v $
- * Revision 3.9  2011/12/19 14:39:02  ts
- * R: customer uses both LVDS ports on EM10A
- * M: added define for BOTH_PORTS bit
- *
- * Revision 3.8  2011/05/23 15:23:50  ts
- * R: additional display type to be supported with 1280 x 800 pixel
- * M: new define Z044_DISP_RES_1280X800 added
- *
- * Revision 3.7  2007/07/11 14:36:52  rt
- * added:
- * -LVDS support
- *
- * Revision 3.6  2006/07/11 10:00:19  rla
- * Added Resolution 320x200, adapted for Z044 controller revision 1
- *
- * Revision 3.5  2005/06/23 16:03:23  kp
- * Copyright line changed
- *
- * Revision 3.4  2005/05/10 13:19:06  ub
- * added Z044_DISP_FOFFS register
- *
- * Revision 3.3  2005/04/29 15:54:56  dpfeuffer
- * Z044_LVDS_XXX defines added
- *
- * Revision 3.2  2005/02/10 09:59:52  kp
- * + Z044_DISP_CTRL_BYTESWAP
- *
- * Revision 3.1  2005/02/02 16:36:15  kp
- * Initial Revision
- *
  *---------------------------------------------------------------------------
- * (c) Copyright 2005 by MEN Mikro Elektronik GmbH, Nuremberg, Germany
+ * Copyright (c) 2005-2019, MEN Mikro Elektronik GmbH
  ******************************************************************************/
 /*
  * This program is free software: you can redistribute it and/or modify

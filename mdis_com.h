@@ -10,56 +10,9 @@
  *
  *     Switches:
  *
- *-------------------------------[ History ]---------------------------------
- *
- * $Log: mdis_com.h,v $
- * Revision 1.10  2013/11/28 17:01:31  ts
- * R: MDIS projects with F50P didnt work on VxWorks versions without multiple PCI domains
- * M: added define to test for VxWorks with PCI domain support
- *
- * Revision 1.9  2009/11/12 16:52:15  CRuff
- * R: avoid that change of MK is needed for every new address mode
- * M: defined flag MDIS_MA_FLAG_NOMAP for address modes that do not need
- *    address mapping
- *
- * Revision 1.8  2009/11/12 09:39:03  CRuff
- * R: address mode MDIS_MA_BB_INFO_PTR is not part of chameleon address modes
- * M: change grouping and value of MDIS_MA_BB_INFO_PTR
- *
- * Revision 1.7  2009/11/12 09:15:44  CRuff
- * R: new address mode MDIS_MA_CHAMELEON_U can be used for passing information
- *    from the BBIS to the LL Driver in general
- * M: rename the address mode MDIS_MA_CHAMELEON_U to MDIS_MA_BB_INFO_PTR
- *
- * Revision 1.6  2009/10/14 17:15:35  CRuff
- * R: 1. new address mode needed for accessing the chameleonV2 unit
- *    2. cosmetics
- * M: 1. added adress mode define MDIS_MA_CHAMELEON_U
- *    2. added new data mode define MDIS_MD_CHAM_MAX which contains the maximum
- *       data mode value
- *
- * Revision 1.5  2006/03/01 12:12:11  cs
- * added
- *     + defines for CHAMELEON address and data modes
- *
- * Revision 1.4  1999/07/23 09:50:47  Schmidt
- * MDIS_MA_NONE, MDIS_MA_PCICFG, MDIS_MD_NONE added
- *
- * Revision 1.3  1998/06/02 11:00:04  see
- * MDIS_MAX_MSPACE added
- *
- * Revision 1.2  1998/03/12 14:23:48  see
- * missing extern C definition added
- * missing comments added
- *
- * missing extern C definition added
- * missing comments added
- *
- * Revision 1.1  1998/02/25 17:50:53  Schmidt
- * initial
  *
  *---------------------------------------------------------------------------
- * (c) Copyright 1998 by MEN mikro elektronik GmbH, Nuremberg, Germany
+ * Copyright (c) 1998-2019, MEN Mikro Elektronik GmbH
  ******************************************************************************/
 /*
  * This program is free software: you can redistribute it and/or modify

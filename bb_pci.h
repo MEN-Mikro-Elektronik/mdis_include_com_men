@@ -13,14 +13,8 @@
  *     Switches: _ONE_NAMESPACE_PER_DRIVER_
  *               _LL_DRV_
  *
- *-------------------------------[ History ]---------------------------------
- *
- * $Log: bb_pci.h,v $
- * Revision 2.1  1999/08/09 15:25:53  kp
- * Initial Revision
- *
  *---------------------------------------------------------------------------
- * (c) Copyright 1999 by MEN mikro elektronik GmbH, Nuremberg, Germany 
+ * Copyright (c) 1999-2019, MEN Mikro Elektronik GmbH
  ******************************************************************************/
 /*
  * This program is free software: you can redistribute it and/or modify

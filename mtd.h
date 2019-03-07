@@ -10,23 +10,8 @@
  *                      
  *     Switches: COMPILE_MTD - when compiling a MTD driver
  *				 MTD_IS_PCMCIA - when used for PCMCIA devices
- *-------------------------------[ History ]---------------------------------
- *
- * $Log: mtd.h,v $
- * Revision 2.4  2005/06/23 16:02:59  kp
- * Copyright line changed
- *
- * Revision 2.3  1998/10/07 12:21:59  Franke
- * added MTD_ACCDESC writeEnableData, WriteEnable()
- *
- * Revision 2.2  1998/08/03 16:14:47  kp
- * added typedef MTD_TRY_F
- *
- * Revision 2.1  1998/06/18 11:14:01  kp
- * Added by mcvs
- *
  *---------------------------------------------------------------------------
- * (c) Copyright 1998 by MEN Mikro Elektronik GmbH, Nuremberg, Germany 
+ * Copyright (c) 1998-2019, MEN Mikro Elektronik GmbH
  ******************************************************************************/
 /*
  * This program is free software: you can redistribute it and/or modify

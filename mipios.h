@@ -13,14 +13,9 @@
  *                      
  *     Switches: -
  */
-/*-------------------------------[ History ]---------------------------------
- *
- * $Log: mipios.h,v $
- * Revision 3.1  2009/01/30 09:23:59  ufranke
- * checkin at project freeze
- *
+/*
  *---------------------------------------------------------------------------
- * (c) Copyright 2008-2009 by MEN Mikro Elektronik GmbH, Nueremberg, Germany 
+ * Copyright (c) 2008-2019, MEN Mikro Elektronik GmbH
  ******************************************************************************/
 /*
  * This program is free software: you can redistribute it and/or modify
