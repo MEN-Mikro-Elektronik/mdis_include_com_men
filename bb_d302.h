@@ -13,14 +13,8 @@
  *     Switches: _ONE_NAMESPACE_PER_DRIVER_
  *               _LL_DRV_
  *
- *-------------------------------[ History ]---------------------------------
- *
- * $Log: bb_d302.h,v $
- * Revision 2.1  2001/11/12 15:48:20  Schmidt
- * Initial Revision
- *
  *---------------------------------------------------------------------------
- * (c) Copyright 2001 by MEN mikro elektronik GmbH, Nuremberg, Germany 
+ * Copyright (c) 2001-2019, MEN Mikro Elektronik GmbH
  ******************************************************************************/
 /*
  * This program is free software: you can redistribute it and/or modify

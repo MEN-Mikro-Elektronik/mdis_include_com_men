@@ -13,14 +13,8 @@
  *     Switches: _ONE_NAMESPACE_PER_DRIVER_
  *               _LL_DRV_
  *
- *-------------------------------[ History ]---------------------------------
- *
- * $Log: bb_d203.h,v $
- * Revision 2.1  2003/01/28 16:17:22  dschmidt
- * Initial Revision
- *
  *---------------------------------------------------------------------------
- * (c) Copyright 2003 by MEN mikro elektronik GmbH, Nuremberg, Germany 
+ * Copyright (c) 2003-2019, MEN Mikro Elektronik GmbH
  ******************************************************************************/
 /*
  * This program is free software: you can redistribute it and/or modify

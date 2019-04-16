@@ -10,37 +10,8 @@
  *
  *     Switches:
  *
- *-------------------------------[ History ]---------------------------------
- *
- * $Log: bb_entry.h,v $
- * Revision 1.6  2008/08/29 08:28:47  dpfeuffer
- * R:1. setStat/getStat protptype doesn't support 64-bit
- * M:1. setStat/getStat protptyp changed to INT32_OR_64
- *
- * Revision 1.5  2006/12/11 17:11:19  ufranke
- * changed
- * - fkt13() is now setIrqHandle() for CHAMELEON GIRQ support
- *   because GIRQ is not designed for BBIS ( seperate register for each IRQ enable )
- *   we must be able to lock/unlock IRQ in BBIS itself
- *
- * Revision 1.4  1998/07/31 14:53:50  see
- * structure BBIS_ENTRY changed: fkt29() is now clrMIface()
- *
- * Revision 1.3  1998/06/02 11:00:11  see
- * cosmetics
- *
- * Revision 1.2  1998/02/25 12:19:29  franke
- * unused fkt now with parameter void
- *
- * Revision 1.1  1998/02/19 09:13:14  franke
- * initial
- *
- * Revision 1.1  1997/12/04 09:56:40  ds
- * initial revision
- *
- *
  *---------------------------------------------------------------------------
- * (c) Copyright 1997 by MEN mikro elektronik GmbH, Nuremberg, Germany
+ * Copyright (c) 1997-2019, MEN Mikro Elektronik GmbH
  ******************************************************************************/
 /*
  * This program is free software: you can redistribute it and/or modify

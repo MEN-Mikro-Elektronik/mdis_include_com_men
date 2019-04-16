@@ -10,14 +10,9 @@
  *
  *    \switches  -
  */
- /*-------------------------------[ History ]--------------------------------
- *
- * $Log: a203n.h,v $
- * Revision 3.1  2005/08/03 12:04:03  dpfeuffer
- * Initial Revision
- *
+ /*
  *---------------------------------------------------------------------------
- * (c) Copyright by MEN Mikro Elektronik GmbH, Nuremberg, Germany
+ * Copyright (c) 2019, MEN Mikro Elektronik GmbH
  ******************************************************************************/
 /*
  * This program is free software: you can redistribute it and/or modify

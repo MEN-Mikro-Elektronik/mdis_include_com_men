@@ -10,57 +10,9 @@
  *
  *     Switches: EM04TOUCH_USE_OLD_SYSPARAM
  */
-/*-------------------------------[ History ]---------------------------------
- *
- * $Log: em04touch.h,v $
- * Revision 2.14  2012/02/27 18:05:42  ts
- * R: range of parameters was increased in systouchDrv.c
- * M: added parameter MAXPARAM set to highest calibration mode
- *
- * Revision 2.13  2012/02/24 17:46:12  ts
- * R: for a customer specific capacitive touch a specific calibration was needed
- * M: added 2 calibration modes for upper right and lower left corner
- *
- * Revision 2.12  2006/07/05 12:20:27  ww
- * New calibration modes (6-9).
- *
- * Revision 2.11  2005/06/23 16:11:20  kp
- * Copyright line changed (sbo)
- *
- * Revision 2.10  2005/02/18 16:10:19  kp
- * fixup for EM04TOUCH driver 2.0
- * replaced ds_move with ds_flag structure (backward compatible)
- *
- * Revision 2.9  2005/02/08 12:55:14  kp
- * changed proto of EM04TOUCH_MeasureAuxInp (otherwise errors are not reported
- * correctly)
- *
- * Revision 2.8  2005/01/13 09:12:36  kp
- * removed useless SYSPARAM_INIT block from handle
- *
- * Revision 2.7  2004/05/27 08:45:43  kp
- * added EM04TOUCH_DEV_TEMP_RAW_xxx codes for raw temp measurement
- *
- * Revision 2.6  2004/01/08 10:09:18  kp
- * Updated for SYSPARAM2
- *
- * Revision 2.5  2002/11/06 10:25:19  kp
- * removed touchevent handle from EM04TOUCH_INIT (rla)
- *
- * Revision 2.4  2002/10/31 14:12:44  RLange
- * added EM04Touch_ERROR
- *
- * Revision 2.3  2002/10/21 11:23:54  RLange
- * cosmetics
- *
- * Revision 2.2  2002/10/08 11:12:47  RLange
- * added ID defines
- *
- * Revision 2.1  2002/09/27 10:35:10  RLange
- * Initial Revision
- *
+/*
  *---------------------------------------------------------------------------
- * (c) Copyright 2002 by MEN Mikro Elektronik GmbH, Nuremberg, Germany
+ * Copyright (c) 2002-2019, MEN Mikro Elektronik GmbH
  ******************************************************************************/
 /*
  * This program is free software: you can redistribute it and/or modify

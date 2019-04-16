@@ -10,16 +10,8 @@
  *
  *     Switches: -
  *
- *-------------------------------[ History ]---------------------------------
- *
- * $Log: esmx_cb_eeprom.h,v $
- * Revision 3.1  2008/08/04 14:10:16  rt
- * Initial Revision
- *
- *
- * cloned from esm_cb_eeprom.h (Revision 3.2  2007/07/11 14:37:54)
  *---------------------------------------------------------------------------
- * (c) Copyright 2008 by MEN Mikro Elektronik GmbH, Nuremberg, Germany
+ * Copyright (c) 2008-2019, MEN Mikro Elektronik GmbH
  ******************************************************************************/
 /*
  * This program is free software: you can redistribute it and/or modify

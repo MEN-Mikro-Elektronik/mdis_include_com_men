@@ -10,29 +10,8 @@
  *
  *     Switches:  __MAPILIB
  *
- *-------------------------------[ History ]---------------------------------
- *
- * $Log: usr_utl.h,v $
- * Revision 2.6  2000/08/03 15:43:47  Schmidt
- * __MAPILIB added to all prototypes to enable OS specific calling convention
- *
- * Revision 2.5  1998/08/13 10:55:46  see
- * UTL_Ident prototype added
- *
- * Revision 2.4  1998/08/11 16:12:56  Schmidt
- * include <MEN/utl_os.h> added, cosmetics
- *
- * Revision 2.3  1998/08/10 10:58:38  see
- * prototypes changed
- *
- * Revision 2.2  1998/08/10 10:44:39  see
- * prototypes changed
- *
- * Revision 2.1  1998/07/02 15:29:20  see
- * Added by mcvs
- *
  *---------------------------------------------------------------------------
- * (c) Copyright 1998-2000 by MEN mikro elektronik GmbH, Nuremberg, Germany
+ * Copyright (c) 1998-2019, MEN Mikro Elektronik GmbH
  ******************************************************************************/
 /*
  * This program is free software: you can redistribute it and/or modify

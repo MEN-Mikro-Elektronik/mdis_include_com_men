@@ -13,20 +13,8 @@
  *     Switches:  _ONE_NAMESPACE_PER_DRIVER_
  *				  _LL_DRV_
  *
- *-------------------------------[ History ]---------------------------------
- *
- * $Log: bb_d201.h,v $
- * Revision 1.5  1999/12/08 10:59:35  Gromann
- * removed switch _LL_DRV_
- *
- * Revision 1.4  1999/09/08 09:30:28  Schmidt
- * all new written, old history entries 1.2..1.3 removed
- *
- * Revision 1.1  1998/02/23 17:39:09  Schmidt
- * Added by mcvs
- *
  *---------------------------------------------------------------------------
- * (c) Copyright 1998 by MEN mikro elektronik GmbH, Nuremberg, Germany 
+ * Copyright (c) 1998-2019, MEN Mikro Elektronik GmbH
  ******************************************************************************/
 /*
  * This program is free software: you can redistribute it and/or modify

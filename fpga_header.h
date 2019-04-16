@@ -11,32 +11,9 @@
  *
  *     \switches -
  */
-/*-------------------------------[ History ]---------------------------------
- *
- * $Log: fpga_header.h,v $
- * Revision 2.6  2007/08/20 17:30:29  MRoth
- * cosmetics in documentation
- *
- * Revision 2.5  2007/08/02 13:00:03  rt
- * added:
- * - date field in FPGA_LONGHEADER
- *
- * Revision 2.4  2005/06/23 16:03:27  kp
- * Copyright line changed
- *
- * Revision 2.3  2004/12/16 10:23:16  cs
- * Split original and long header into two seperate structures
- * cosmetics (changed comments to be doxygen compliant, enhanced docu)
- *
- * Revision 2.2  2004/11/30 18:05:03  cs
- * Added defines and struct extensions for long (0x100) FPGA headers to be used
- * with FPGA_LOAD (13Z100-xx) tool
- *
- * Revision 2.1  2002/09/02 11:38:56  kp
- * Initial Revision
- *
+/*
  *---------------------------------------------------------------------------
- * (c) Copyright 2002 by MEN Mikro Elektronik GmbH, Nuremberg, Germany
+ * Copyright (c) 2002-2019, MEN Mikro Elektronik GmbH
  ******************************************************************************/
 /*
  * This program is free software: you can redistribute it and/or modify

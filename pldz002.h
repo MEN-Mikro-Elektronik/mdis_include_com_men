@@ -12,68 +12,9 @@
  *     Switches: - PLDZ002_REV - specifies the used PLD revision (e.g. 17)
  *               - _16Z002_02 - 16Z002-02 conform registers 
  */
-/*-------------------------------[ History ]---------------------------------
- *
- * $Log: pldz002.h,v $
- * Revision 2.16  2014/02/28 14:45:45  dpfeuffer
- * R: 16Z002-02 VMELL driver development for Windows VME4WIN/MDIS5
- * M: completely revised but should be compatible ;-)
- *
- * Revision 2.15  2009/02/06 21:14:36  cs
- * R: a bit was added to PLDZ002_MSTR register to control bus request mode
- * M: add define to support additional bit in PLDZ002_MSTR register
- *
- * Revision 2.14  2007/04/19 14:18:15  DPfeuffer
- * PLDZ002_MAILBOX(mbx) macro fixed
- *
- * Revision 2.13  2005/11/30 12:52:18  UFranke
- * added
- *  + SLV32 defines
- *
- * Revision 2.12  2005/11/25 14:58:12  UFranke
- * added
- *  + SLV32 defines
- *
- * Revision 2.11  2005/10/20 11:52:58  UFranke
- * added defines
- *  + PLDZ002_SLV24_SIZE_XXXX
- *
- * Revision 2.10  2005/07/05 12:28:41  kp
- * cosmetics
- *
- * Revision 2.9  2004/10/27 09:02:35  kp
- * added macros to allow to access registers of old and new (>= rev 17) PLD
- * from the same code
- *
- * Revision 2.8  2004/08/12 12:18:14  dpfeuffer
- * register defines changed for PLDZ002 Rev. 11 (use PLDZ002_REV switch)
- *
- * Revision 2.7  2004/07/16 15:10:43  kp
- * added new regs of PLDZ002 Rev. 10
- *
- * Revision 2.6  2004/02/05 11:25:37  UFranke
- * removed
- *  - double address definition mailbox control/status
- *
- * Revision 2.5  2003/12/23 13:38:37  dpfeuffer
- * PLDZ002_DMABD_XXX_OFF added
- *
- * Revision 2.4  2003/12/18 15:58:25  UFranke
- * added
- *  + Location Monitor and Mailbox bit definitions
- *
- * Revision 2.3  2003/12/18 09:21:24  UFranke
- * added
- *   + slave 16/32 bit definitions
- *
- * Revision 2.2  2003/12/10 15:57:09  kp
- * fixed some defs for current version of PLDZ002 (now Rev.7)
- *
- * Revision 2.1  2003/10/20 16:30:15  kp
- * alpha state
- *
+/*
  *---------------------------------------------------------------------------
- * (c) Copyright 2003 by MEN Mikro Elektronik GmbH, Nuremberg, Germany 
+ * Copyright (c) 2003-2019, MEN Mikro Elektronik GmbH
  ******************************************************************************/
 /*
  * This program is free software: you can redistribute it and/or modify

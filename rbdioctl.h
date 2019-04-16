@@ -10,21 +10,8 @@
  *                      
  *     Switches: 
  *
- *-------------------------------[ History ]---------------------------------
- *
- * $Log: rbdioctl.h,v $
- * Revision 2.3  2005/06/23 16:03:13  kp
- * Copyright line changed
- *
- * Revision 2.2  1998/08/12 16:35:54  kp
- * RBDRV_IOCTL_PARMS: Added flags field
- * moved flags defines from rbdrv.h to this file
- *
- * Revision 2.1  1998/06/18 11:14:05  kp
- * Added by mcvs
- *
  *---------------------------------------------------------------------------
- * (c) Copyright 1998 by MEN Mikro Elektronik GmbH, Nuremberg, Germany 
+ * Copyright (c) 1998-2019, MEN Mikro Elektronik GmbH
  ******************************************************************************/
 /*
  * This program is free software: you can redistribute it and/or modify

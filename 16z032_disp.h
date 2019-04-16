@@ -10,23 +10,8 @@
  *
  *     Switches: -
  *
- *-------------------------------[ History ]---------------------------------
- *
- * $Log: 16z032_disp.h,v $
- * Revision 3.1  2005/09/09 20:17:54  CSchuster
- * Initial Revision
- *
- *
- * cloned from saruman.h
- *
- * Revision 2.2  2005/03/21 16:10:31  ub
- * changed register defines to match hardware spec
- *
- * Revision 2.1  2002/10/28 08:40:29  ub
- * Initial Revision
- *
  *---------------------------------------------------------------------------
- * (c) Copyright 2002-2005 by MEN Mikro Elektronik GmbH, Nuremberg, Germany
+ * Copyright (c) 2002-2019, MEN Mikro Elektronik GmbH
  ******************************************************************************/
 /*
  * This program is free software: you can redistribute it and/or modify

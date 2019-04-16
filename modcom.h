@@ -23,37 +23,8 @@
  * int usm_read(addr,index)          single read i
  * int usm_write(addr,index,data)    single write i
  *
- *-------------------------------[ History ]---------------------------------
- *
- * $Log: modcom.h,v $
- * Revision 1.8  2008/09/16 18:41:21  CKauntz
- * R: base address is only 32 bit long and not compatible to 64 bit
- * M: Changed base address to U_INT32_OR_64
- *
- * Revision 1.7  2007/08/09 09:16:02  CKauntz
- * added usm functions for USM EEPROM read/write
- *
- * Revision 1.6  2003/04/03 14:42:35  Rlange
- * fixed
- *   - missing ID_SW_m_getmodinfo
- *
- * Revision 1.5  2003/01/13 11:16:43  dschmidt
- * added: define MODCOM_MOD_XXX, prototype m_getmodinfo()
- *
- * Revision 1.4  2001/01/16 11:07:40  Schmidt
- * Bug fix - m_read declaration restored
- *
- * Revision 1.3  2000/12/13 12:40:58  ww
- * cosmetics
- *
- * Revision 1.2  1999/05/28 15:01:37  Schmidt
- * supports variant id_sw
- *
- * Revision 1.1  1998/02/23 11:29:57  franke
- * initial
- *
  *---------------------------------------------------------------------------
- * (c) Copyright 1993 by MEN mikro elektronik GmbH, Nuremberg, Germany
+ * Copyright (c) 1993-2019, MEN Mikro Elektronik GmbH
  ******************************************************************************/
 /*
  * This program is free software: you can redistribute it and/or modify

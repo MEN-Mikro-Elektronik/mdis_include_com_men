@@ -10,14 +10,8 @@
  *                      
  *     Switches: -
  *
- *-------------------------------[ History ]---------------------------------
- *
- * $Log: desctyps.h,v $
- * Revision 1.2  1998/05/29 16:49:04  see
- * missing header/ifdefs added
- *
  *---------------------------------------------------------------------------
- * (c) Copyright 1998 by MEN mikro elektronik GmbH, Nuremberg, Germany 
+ * Copyright (c) 1998-2019, MEN Mikro Elektronik GmbH
  ******************************************************************************/
 /*
  * This program is free software: you can redistribute it and/or modify

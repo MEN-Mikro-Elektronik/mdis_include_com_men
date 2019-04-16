@@ -10,32 +10,8 @@
  *                      
  *     Switches: PLD_SW - swapped access
  *
- *-------------------------------[ History ]---------------------------------
- *
- * $Log: pld_load.h,v $
- * Revision 1.7  2004/05/07 17:07:23  cs
- * added PLD_ErrorMsg for swapped variants
- *
- * Revision 1.6  1999/11/02 10:30:47  Gromann
- * changed again prototype of identify to char *
- *
- * Revision 1.5  1999/09/24 09:27:41  kp
- * changed again prototype of identify to const char *
- *
- * Revision 1.4  1999/09/24 09:26:09  kp
- * added (void) in parameter list to identify
- *
- * Revision 1.3  1999/07/21 17:43:54  Franke
- * cosmetics
- *
- * Revision 1.2  1999/05/28 16:18:17  Schmidt
- * supports variant pld_sw
- *
- * Revision 1.1  1998/02/25 09:48:09  Schmidt
- * Added by mcvs
- *
  *---------------------------------------------------------------------------
- * (c) Copyright 1998 by MEN mikro elektronik GmbH, Nuremberg, Germany 
+ * Copyright (c) 1998-2019, MEN Mikro Elektronik GmbH
  ******************************************************************************/
 /*
  * This program is free software: you can redistribute it and/or modify

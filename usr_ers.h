@@ -10,19 +10,8 @@
  *
  *     Switches: -
  *
- *-------------------------------[ History ]---------------------------------
- *
- * $Log: usr_ers.h,v $
- * Revision 2.2  1998/09/18 13:18:59  see
- * wrong ifndef name changed
- * ERR_UOS_SUCCESS added
- * ERR_UOS_NO_PERM added
- *
- * Revision 2.1  1998/08/26 16:48:01  Schmidt
- * Initial Revision
- *
  *---------------------------------------------------------------------------
- * (c) Copyright 1998 by MEN mikro elektronik GmbH, Nuremberg, Germany
+ * Copyright (c) 1998-2019, MEN Mikro Elektronik GmbH
  ******************************************************************************/
 /*
  * This program is free software: you can redistribute it and/or modify
