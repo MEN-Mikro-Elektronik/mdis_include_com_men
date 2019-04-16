@@ -206,6 +206,12 @@
 #define EM10CFG_PCI_IRQ_INTC	0xf2
 #define EM10CFG_PCI_IRQ_INTD	0xf3
 
+/* same as on EM01 but who knows if HW changes in future.. */
+#define EM10ACFG_LM81_2_5V_FULLSCALE_MV		(2500*255/192)	/* in mV */
+#define EM10ACFG_LM81_VCCP_1_FULLSCALE_MV	(2700*255/192)	/* in mV */
+#define EM10ACFG_LM81_3_3V_FULLSCALE_MV		(3300*255/192)	/* in mV */
+#define EM10ACFG_LM81_5V_FULLSCALE_MV		(5000*255/192)	/* in mV */
+#define EM10ACFG_LM81_VCCP_2_FULLSCALE_MV	(2700*255/192)	/* in mV */
 
 
 #endif /* _EM10CFG_H */
