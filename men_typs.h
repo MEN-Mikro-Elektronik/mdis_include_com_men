@@ -168,6 +168,10 @@ typedef signed short    int16;			/**< 16-bit signed integer */
 /** range checking: check if v is in range [b..e] */
 #define IN_RANGE(v,b,e) ((v)>=(b) && (v)<=(e))
 
+/** stringize macros */
+#define MENT_XSTR(s) MENT_STR(s)
+#define MENT_STR(s) #s
+
 /*-------------------------------------------------------------------------+
 |  special character definitions                                           |
 +-------------------------------------------------------------------------*/
