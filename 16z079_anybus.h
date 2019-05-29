@@ -10,24 +10,25 @@
  *
  *     Switches: -
  *
- *-------------------------------[ History ]---------------------------------
- *
- * $Log: 10cc10-60/VXWORKS/INCLUDE/COM/MEN/16z079_anybus.h  $
- * Revision 1.2 2017/12/04 16:19:57CET Merz Martin (DC-AT/EJT1) (MZM2MT) 
- * Member moved from cc10CpuBoard/10cc10-60/VXWORKS/INCLUDE/COM/MEN/16z079_anybus.h in project d:/MKS2007Data/SYS350/SW350/Firmware/cc10CpuBoard/cc10CpuBoard.pj to 10cc10-60/VXWORKS/INCLUDE/COM/MEN/16z079_anybus.h in project d:/MKS2007Data/SYS350/SW350/Firmware/cc10CpuBoard/cc10CpuBoard.pj.
- * Revision 1.1 2017/12/04 15:40:37CET Merz Martin (DC-AT/EJT1) (MZM2MT) 
- * Initial revision
- * Member added to project d:/MKS2007Data/SYS350/SW350/Firmware/cc10CpuBoard/cc10CpuBoard.pj
- * Revision 1.1 2007/05/10 16:54:51MESZ Klepsch Thorsten (DC-IA/EDP) (kht2mt) 
- * Initial revision
- * Member added to project //mt1000.mt.de.bosch.com/aMt_BRCSEENG_PE$/Sys350/SW350/MEN_vxWorks_src.pj
- * Revision 3.1  2006/07/13 16:57:38  RLange
- * Initial Revision
- *
  *
  *---------------------------------------------------------------------------
- * (c) Copyright 2006 by MEN Mikro Elektronik GmbH, Nuremberg, Germany
+ * Copyright (c) 2006-2019, MEN Mikro Elektronik GmbH
  ****************************************************************************/
+
+ /*
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
 
 #ifndef _Z079_ANYB_H
 #define _Z079_ANYB_H
