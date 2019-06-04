@@ -3,8 +3,6 @@
  *         \file men_id.h
  *
  *       \author mko
- *        $Date: 2009/04/07 11:04:08 $
- *    $Revision: 3.1 $
  *
  *        \brief Header file with MEN specific PCI IDs
  *

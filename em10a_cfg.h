@@ -3,8 +3,6 @@
  *         Name: em10a_cfg.h
  *
  *       Author: ts
- *        $Date: 2012/01/11 18:02:12 $
- *    $Revision: 1.2 $
  *
  *  Description: MEN EM10A Configuration and Memory Map
  *

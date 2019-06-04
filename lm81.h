@@ -3,8 +3,6 @@
  *        \file  lm81.h
  *
  *      \author  men
- *        $Date: 2006/04/13 18:34:38 $
- *    $Revision: 2.5 $
  * 
  *  	 \brief  Header file for LM81 chip
  *                      

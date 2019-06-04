@@ -2,9 +2,7 @@
  *  
  *         Name: dl_list.h
  *
- *      $Author: kp $
- *        $Date: 1994/04/22 11:42:43 $
- *    $Revision: 1.1 $
+ *      Author: kp 
  * 
  *  Description: Include when using the double linked list functions
  *               of the uti.l library       

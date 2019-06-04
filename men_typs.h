@@ -3,8 +3,6 @@
  *        \file  men_typs.h
  *
  *      \author  uf
- *        $Date: 2014/04/07 15:25:58 $
- *    $Revision: 1.32 $
  *
  *     \project  MEN global
  *       \brief  MEN types and useful definitions

@@ -3,8 +3,6 @@
  *         Name: bb_pci.h
  *
  *       Author: kp
- *        $Date: 1999/08/09 15:25:53 $
- *    $Revision: 2.1 $
  * 
  *  Description: Header file for PCI BBIS driver
  *               - PCI specific status codes

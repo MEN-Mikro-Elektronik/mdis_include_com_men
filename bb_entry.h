@@ -3,8 +3,6 @@
  *         Name: bb_entry.h
  *
  *       Author: ds
- *        $Date: 2008/08/29 08:28:47 $
- *    $Revision: 1.6 $
  *
  *  Description: BBIS board handler jump table structure
  *

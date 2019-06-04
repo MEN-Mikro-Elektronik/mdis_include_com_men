@@ -3,8 +3,6 @@
  *         Name: bb_defs.h
  *
  *       Author: ds
- *        $Date: 2011/05/18 16:50:25 $
- *    $Revision: 1.16 $
  *
  *  Description: BBIS board handler common definitions
  *

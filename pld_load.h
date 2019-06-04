@@ -3,8 +3,6 @@
  *         Name: pld_load.h
  *
  *       Author: see
- *        $Date: 2004/05/07 17:07:23 $
- *    $Revision: 1.7 $
  * 
  *  Description: PLD loader library defs
  *                      

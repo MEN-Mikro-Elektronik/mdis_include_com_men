@@ -3,8 +3,6 @@
  *         Name: desc.h
  *
  *       Author: uf
- *        $Date: 1998/05/29 16:49:07 $
- *    $Revision: 1.3 $
  *
  *  Description: interface to desc module
  *

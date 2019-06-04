@@ -3,8 +3,6 @@
  *         Name: mbuf.h
  *
  *       Author: uf
- *        $Date: 1998/04/17 15:40:12 $
- *    $Revision: 1.2 $
  *
  *  Description: input/output buffer handling and
  *               high/low water signaling to application

@@ -3,8 +3,6 @@
  *         Name: desctyps.h
  *
  *       Author: see
- *        $Date: 1998/05/29 16:49:04 $
- *    $Revision: 1.2 $
  * 
  *  Description: Descriptor key types
  *                      

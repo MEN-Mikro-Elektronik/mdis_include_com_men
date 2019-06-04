@@ -3,8 +3,6 @@
  *         Name: bb_d201.h
  *
  *       Author: ds
- *        $Date: 1999/12/08 10:59:35 $
- *    $Revision: 1.5 $
  * 
  *  Description: Header file for D201 BBIS driver
  *               - D201 specific status codes

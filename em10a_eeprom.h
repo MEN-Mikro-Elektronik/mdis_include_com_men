@@ -3,8 +3,6 @@
  *         Name: em10a_eeprom.h
  *
  *       Author: ts
- *        $Date: 2012/01/11 17:46:17 $
- *    $Revision: 3.1 $
  *
  *  Description: Layout of EM10A EEPROM, compatible to EM01 but
  *               kept separate to allow possible customer specific extension

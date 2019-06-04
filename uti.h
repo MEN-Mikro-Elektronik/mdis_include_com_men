@@ -2,9 +2,7 @@
  *  
  *         Name: uti.h
  *
- *      $Author: ww $
- *        $Date: 2001/08/07 18:34:15 $
- *    $Revision: 1.10 $
+ *      Author: ww 
  * 
  *  Description: Header File for uti.l
  *                      

@@ -3,8 +3,6 @@
 *        \file  wdog.h
 *
 *      \author  dp
-*        $Date: 2006/05/26 15:08:34 $
-*    $Revision: 2.6 $
 *
 *       \brief  Header file for Watchdog drivers
 *               - Watchdog specific status codes

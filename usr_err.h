@@ -3,8 +3,6 @@
  *         Name: usr_err.h
  *
  *       Author: see
- *        $Date: 1998/09/18 13:18:55 $
- *    $Revision: 2.1 $
  *
  *  Description: USR_OSS error code definitions
  *

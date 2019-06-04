@@ -4,8 +4,6 @@
  *      Project: common lib for m-modules
  *
  *       Author: kp
- *        $Date: 2008/09/16 18:41:21 $
- *    $Revision: 1.8 $
  *
  *  Description: Handling Module-Identification (EEPROM)
  *

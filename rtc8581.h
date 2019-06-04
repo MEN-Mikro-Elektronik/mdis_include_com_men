@@ -3,8 +3,6 @@
  *        \file  rtc8581.h
  *
  *      \author  kp
- *        $Date: 2014/10/10 11:57:11 $
- *    $Revision: 2.5 $
  *
  *  	 \brief  header file for EPSON RTC 8581
  *

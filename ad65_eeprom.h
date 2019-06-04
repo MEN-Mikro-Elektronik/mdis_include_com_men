@@ -3,8 +3,6 @@
  *         Name: ad65_eeprom.h
  *
  *       Author: ub
- *        $Date: 2005/06/23 15:54:54 $
- *    $Revision: 2.3 $
  *
  *  Description: Layout of MEN AD65 carrier board's serial EEPROM
  *

@@ -3,8 +3,6 @@
  *         Name: em10a_vxw.h
  *
  *       Author: ts
- *        $Date: 2012/02/27 12:21:09 $
- *    $Revision: 3.1 $
  *
  *  Description: globally visible Prototypes for EM10A VxWorks BSP 
  *     Switches: -

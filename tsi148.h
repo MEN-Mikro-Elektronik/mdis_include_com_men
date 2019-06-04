@@ -3,8 +3,6 @@
  *		  \file	 tsi148.h
  *
  *		\author	 rt
- *		  $Date: 2010/06/25 08:52:01 $
- *	  $Revision: 3.10 $
  *
  *		 \brief	 Tundra	TSI148 PCI2VME bridge register defines
  *

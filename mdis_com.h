@@ -3,8 +3,6 @@
  *         Name: mdis_com.h
  *
  *       Author: ds
- *        $Date: 2013/11/28 17:01:31 $
- *    $Revision: 1.10 $
  *
  *  Description: MDIS common driver definitions
  *

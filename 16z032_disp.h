@@ -3,8 +3,6 @@
  *         Name: 16z032_disp.h
  *
  *       Author: ub
- *        $Date: 2005/09/09 20:17:54 $
- *    $Revision: 3.1 $
  *
  *  Description: Header file for MEN 16Z032_DISP graphics controller
  *

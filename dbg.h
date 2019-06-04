@@ -3,8 +3,6 @@
  *        \file  dbg.h
  *
  *      \author  uf
- *        $Date: 2013/07/02 11:17:11 $
- *    $Revision: 1.25 $
  *
  *     \project  DBG Library
  *  	 \brief  Debug interface definitions and macros

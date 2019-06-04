@@ -3,8 +3,6 @@
  *         Name: men_pci2vme.h
  *
  *       Author: kp
- *        $Date: 2001/04/04 13:32:19 $
- *    $Revision: 2.2 $
  * 
  *  Description: Register definitions for MEN's PCI2VME bridge
  *				 developed by Klaus Botschnan (used on B11, A12).

@@ -3,8 +3,6 @@
  *        \file  eeprod.h
  *
  *      \author  klaus.popp@men.de/ulrich.bogensperger@men.de
- *        $Date: 2011/09/30 10:42:27 $
- *    $Revision: 2.10 $
  *
  *  	 \brief  Common layout of production data in MEN boards
  *

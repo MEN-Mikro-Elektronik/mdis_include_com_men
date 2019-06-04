@@ -3,8 +3,6 @@
  *         Name: 16z044_disp.h
  *
  *       Author: cs/kp
- *        $Date: 2011/12/19 14:39:02 $
- *    $Revision: 3.9 $
  *
  *  Description: Header file for MEN Z044_DISP graphics controller
  *

@@ -3,8 +3,6 @@
  *         Name: sysmanagbus.h
  *
  *       Author: uf
- *        $Date: 2007/09/20 16:57:21 $
- *    $Revision: 2.18 $
  *
  *  Description: system managment bus routines interface
  *     Switches: SMB_COMPILE - for module compilation

@@ -3,8 +3,6 @@
  *        \file  em04touch.h
  *
  *      \author  rla
- *        $Date: 2012/02/27 18:05:42 $
- *    $Revision: 2.14 $
  *
  *  	 \brief  Header file for EM04 touch driver
  *

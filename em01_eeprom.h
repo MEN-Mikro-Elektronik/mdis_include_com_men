@@ -3,8 +3,6 @@
  *         Name: em01_eeprom.h
  *
  *       Author: kp
- *        $Date: 2008/06/30 20:10:58 $
- *    $Revision: 3.6 $
  *
  *  Description: Layout of EM01 EEPROM
  *

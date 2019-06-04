@@ -3,8 +3,6 @@
  *         Name: bb_d203.h
  *
  *       Author: ds
- *        $Date: 2003/01/28 16:17:22 $
- *    $Revision: 2.1 $
  * 
  *  Description: Header file for D203 BBIS driver
  *               - D203 specific status codes

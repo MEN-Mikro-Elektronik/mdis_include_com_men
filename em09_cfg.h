@@ -3,8 +3,6 @@
  *         Name: em09_cfg.h
  *
  *       Author: rt
- *        $Date: 2009/01/27 14:00:02 $
- *    $Revision: 3.18 $
  *
  *  Description: MEN EM09 Configuration and Memory Map
  *

@@ -3,8 +3,6 @@
  *         Name: mdis_err.h
  *
  *       Author: uf
- *        $Date: 2010/10/14 10:07:55 $
- *    $Revision: 1.35 $
  *
  *  Description: MDIS error code definitions
  *

@@ -3,8 +3,6 @@
  *         Name: 16z023_ide.h
  *
  *       Author: kp
- *        $Date: 2005/06/23 16:03:21 $
- *    $Revision: 2.5 $
  * 
  *  Description: Header file for 16z023_Ide IDE controller in Chameleon FPGA
  *                      

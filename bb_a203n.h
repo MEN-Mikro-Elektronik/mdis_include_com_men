@@ -3,8 +3,6 @@
  *        \file  bb_a203n.h
  *
  *      \author  dieter.pfeuffer@men.de
- *        $Date: 2005/08/03 12:04:02 $
- *    $Revision: 3.1 $
  *
  *       \brief  Header file for A203N BBIS driver
  *

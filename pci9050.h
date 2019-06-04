@@ -3,8 +3,6 @@
  *         Name: pci9050.h
  *
  *       Author: ds
- *        $Date: 1999/09/08 09:30:31 $
- *    $Revision: 2.1 $
  *
  *  Description: Register and bit definitions for PCI9050 controller
  *

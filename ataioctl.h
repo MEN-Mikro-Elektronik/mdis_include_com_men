@@ -3,8 +3,6 @@
  *         Name: ataioctl.h
  *
  *       Author: kp
- *        $Date: 2007/01/05 17:33:20 $
- *    $Revision: 2.6 $
  *
  *  Description: IOCTL defines for ATA driver
  *

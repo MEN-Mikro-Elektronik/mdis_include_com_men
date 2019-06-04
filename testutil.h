@@ -2,9 +2,7 @@
  *
  *         Name: testutil.h
  *
- *      $Author: MRoth $
- *        $Date: 2009/01/14 10:36:48 $
- *    $Revision: 1.5 $
+ *      Author: MRoth 
  *
  *  Description: include file for use with testutil.l
  *

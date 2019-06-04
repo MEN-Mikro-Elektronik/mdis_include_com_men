@@ -3,8 +3,6 @@
  *         Name: microwire.h
  *
  *       Author: uf
- *        $Date: 2000/03/08 14:01:54 $
- *    $Revision: 2.3 $
  * 
  *  Description: microwire bus protocol interface
  *     Switches: MCRW_COMPILE - for module compilation

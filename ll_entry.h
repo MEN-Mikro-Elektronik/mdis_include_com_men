@@ -2,9 +2,7 @@
  *
  *         Name: ll_entry.h
  *
- *      $Author: CKauntz $
- *        $Date: 2008/08/22 10:22:39 $
- *    $Revision: 1.4 $
+ *      Author: CKauntz 
  *
  *  Description: MDIS LL-driver jump table definitions
  *

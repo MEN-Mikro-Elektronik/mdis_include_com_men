@@ -3,8 +3,6 @@
  *         Name: ata_drv2.h
  *
  *       Author: kp
- *        $Date: 2008/09/05 11:21:13 $
- *    $Revision: 3.7 $
  *
  *  Description: ATA driver export definitions (for COM/DRIVERS/ATA)
  *

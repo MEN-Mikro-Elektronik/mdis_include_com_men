@@ -3,8 +3,6 @@
  *         Name: ether_mii.h
  *
  *       Author: uf
- *        $Date: 2008/12/18 11:04:20 $
- *    $Revision: 2.7 $
  *
  *  Description: MII definitions for Ethernet PHY's
  *     Switches: -

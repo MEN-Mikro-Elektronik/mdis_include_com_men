@@ -3,8 +3,6 @@
  *        \file: fpga_header.h
  *
  *       \author kp
- *        $Date: 2007/08/20 17:30:29 $
- *    $Revision: 2.6 $
  *
  *        \brief Layout of FPGA header to be put at the beginning of FPGA
  *				 code images

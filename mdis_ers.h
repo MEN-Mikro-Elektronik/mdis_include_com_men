@@ -3,8 +3,6 @@
  *         Name: mdis_ers.h
  *
  *       Author: ds
- *        $Date: 2010/10/14 10:11:27 $
- *    $Revision: 1.29 $
  *
  *  Description: MDIS error code string table
  *

@@ -2,9 +2,7 @@
  *
  *         Name: bb_a201.h
  *
- *      $Author: ufranke $
- *        $Date: 2004/07/30 11:36:56 $
- *    $Revision: 1.7 $
+ *      Author: ufranke 
  *
  *  Description: A201/B201/B202 specific set-/getstat codes and BBIS prototypes
  *

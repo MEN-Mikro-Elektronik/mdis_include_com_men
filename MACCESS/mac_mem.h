@@ -3,8 +3,6 @@
  *         Name: mac_mem.h
  *
  *       Author: uf
- *        $Date: 2010/09/01 11:44:26 $
- *    $Revision: 1.20 $
  *
  *  Description: access macros for memory mapped devices
  *

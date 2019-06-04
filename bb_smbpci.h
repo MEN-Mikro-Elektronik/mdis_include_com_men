@@ -3,8 +3,6 @@
  *        \file  bb_smbpci.h
  *
  *      \author  dieter.pfeuffer@men.de
- *        $Date: 2006/08/02 12:25:07 $
- *    $Revision: 3.2 $
  *
  *       \brief  Header file for SMBPCI BBIS driver
  *

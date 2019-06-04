@@ -2,9 +2,7 @@
  *
  *         Name: ll_defs.h
  *
- *      $Author: see $
- *        $Date: 1998/06/02 11:00:14 $
- *    $Revision: 1.2 $
+ *      Author: see 
  *
  *  Description: LL-Drv. defines
  *

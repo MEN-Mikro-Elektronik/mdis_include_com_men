@@ -3,8 +3,6 @@
  *         Name: mgt5200.h
  *
  *       Author: kp/uf
- *        $Date: 2009/12/10 14:09:58 $
- *    $Revision: 2.27 $
  *
  *  Description: register layout for MGT5200
  *

@@ -3,8 +3,6 @@
  *         Name: rbdioctl.h
  *
  *       Author: kp
- *        $Date: 2005/06/23 16:03:13 $
- *    $Revision: 2.3 $
  * 
  *  Description: Interface definition to Random Block Driver's IOCTL (ATA/MEM)
  *                      

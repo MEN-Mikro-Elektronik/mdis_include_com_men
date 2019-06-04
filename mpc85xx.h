@@ -3,8 +3,6 @@
  *        \file  mpc85xx.h
  *
  *      \author  Xianghua Xiao (x.xiao@motorola.com), klaus.popp@men.de
- *        $Date: 2014/08/20 10:17:54 $
- *    $Revision: 2.9 $
  *
  *  	 \brief  Header file for MPC 85xx internal registers
  *

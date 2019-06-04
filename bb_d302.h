@@ -3,8 +3,6 @@
  *         Name: bb_d302.h
  *
  *       Author: ds
- *        $Date: 2001/11/12 15:48:20 $
- *    $Revision: 2.1 $
  * 
  *  Description: Header file for D302 BBIS driver
  *               - D302 specific status codes

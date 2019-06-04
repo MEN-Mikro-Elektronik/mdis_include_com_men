@@ -3,8 +3,6 @@
  *        \file  a203n.h
  *
  *      \author  dieter.pfeuffer@men.de
- *        $Date: 2005/08/03 12:04:03 $
- *    $Revision: 3.1 $
  *
  *       \brief  A203N register definitions
  *

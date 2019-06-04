@@ -3,8 +3,6 @@
  *         Name: usr_oss.h
  *
  *       Author: uf
- *        $Date: 2010/10/27 10:11:58 $
- *    $Revision: 1.24 $
  *
  *  Description: User mode system services
  *

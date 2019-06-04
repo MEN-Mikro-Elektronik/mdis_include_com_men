@@ -3,8 +3,6 @@
  *         Name: usr_ers.h
  *
  *       Author: ds
- *        $Date: 1998/09/18 13:18:59 $
- *    $Revision: 2.2 $
  *
  *  Description: UOS_OSS error code string table
  *

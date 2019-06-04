@@ -3,8 +3,6 @@
  *         Name: bb_isa.h
  *
  *       Author: ds
- *        $Date: 2004/09/06 13:03:13 $
- *    $Revision: 2.2 $
  * 
  *  Description: Header file for ISA BBIS driver
  *               - ISA specific status codes

@@ -3,8 +3,6 @@
  *         Name: bb_a12.h
  *
  *       Author: kp
- *        $Date: 2001/04/11 11:05:54 $
- *    $Revision: 2.1 $
  * 
  *  Description: Header file for A12 BBIS driver
  *               - A12 specific status codes

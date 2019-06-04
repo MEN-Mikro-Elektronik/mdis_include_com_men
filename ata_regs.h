@@ -3,8 +3,6 @@
  *         Name: ata_regs.h
  *
  *       Author: kp
- *        $Date: 2008/05/05 10:27:22 $
- *    $Revision: 2.6 $
  *
  *  Description: Register definitions for ATA drives
  *

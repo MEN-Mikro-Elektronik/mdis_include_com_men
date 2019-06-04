@@ -3,8 +3,6 @@
  *         Name: esmx_cb_eeprom.h
  *
  *       Author: rt
- *        $Date: 2008/08/04 14:10:16 $
- *    $Revision: 3.1 $
  *
  *  Description: Layout of ESMexpress carrier board's serial EEPROM
  *

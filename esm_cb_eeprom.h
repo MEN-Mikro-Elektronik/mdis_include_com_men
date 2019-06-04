@@ -3,8 +3,6 @@
  *         Name: esm_cb_eeprom.h
  *
  *       Author: cs
- *        $Date: 2007/07/11 14:37:54 $
- *    $Revision: 3.2 $
  *
  *  Description: Layout of ESM carrier board's serial EEPROM
  *

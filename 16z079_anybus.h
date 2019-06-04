@@ -3,8 +3,6 @@
  *         Name: 16z079_anybus.h
  *
  *       Author: rla
- *        $Date: 2017/12/04 16:19:57CET $
- *    $Revision: 1.2 $
  *
  *  Description: Header file for MEN Z079_ANYBUS
  *

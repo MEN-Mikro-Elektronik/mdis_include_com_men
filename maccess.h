@@ -3,8 +3,6 @@
  *         Name: maccess.h
  *
  *       Author: uf
- *        $Date: 2011/05/18 16:57:07 $
- *    $Revision: 1.18 $
  *
  *  Description: including os specific access macros
  *

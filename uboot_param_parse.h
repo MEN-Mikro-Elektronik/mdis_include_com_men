@@ -3,8 +3,6 @@
  *         Name: uboot_param_parse.h
  *
  *       Author: cs
- *        $Date: 2011/11/08 18:21:24 $
- *    $Revision: 3.2 $
  *
  *  Description: Header file for UBOOT parameter parsing lib
  *

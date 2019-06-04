@@ -2,9 +2,7 @@
  *
  *         Name: typdefs.h
  *
- *      $Author: ub $
- *        $Date: 2003/05/26 11:45:18 $
- *    $Revision: 2.1 $
+ *      Author: ub 
  *
  *  Description: Standard types, defs and macros (for OS-9)
  *

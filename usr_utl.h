@@ -3,8 +3,6 @@
  *         Name: usr_utl.h
  *
  *       Author: see
- *        $Date: 2000/08/03 15:43:47 $
- *    $Revision: 2.6 $
  *
  *  Description: Defines and prototypes for the UTL library.
  *

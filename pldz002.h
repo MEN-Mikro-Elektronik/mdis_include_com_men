@@ -3,8 +3,6 @@
  *        \file  pldz002.h
  *
  *      \author  dieter.schmidt@men.de
- *        $Date: 2014/02/28 14:45:45 $
- *    $Revision: 2.16 $
  * 
  *  	 \brief  MEN A15/A500 PCI2VME bridge PLD register defines (PLD Z002)
  *               16/32 bit registers are described in little endian format

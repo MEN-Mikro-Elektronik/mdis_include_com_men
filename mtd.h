@@ -3,8 +3,6 @@
  *         Name: mtd.h
  *
  *       Author: kp
- *        $Date: 2005/06/23 16:02:59 $
- *    $Revision: 2.4 $
  * 
  *  Description: Interface to PCMCIA/RAW Memory technology Drivers (FLASH/SRAM)
  *                      

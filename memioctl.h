@@ -3,8 +3,6 @@
  *         Name: memioctl.h
  *
  *       Author: kp
- *        $Date: 2008/11/11 18:20:35 $
- *    $Revision: 2.3 $
  * 
  *  Description: IOCTL interface MEMory driver (RBFLASH, MEN_PCMCIA)
  *                      

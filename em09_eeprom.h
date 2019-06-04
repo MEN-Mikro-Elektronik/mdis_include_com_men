@@ -3,8 +3,6 @@
  *         Name: em09_eeprom.h
  *
  *       Author: aw
- *        $Date: 2009/11/20 20:00:39 $
- *    $Revision: 3.10 $
  *
  *  Description: Layout of MEN EM09's serial EEPROM/FLASH
  *               cloned from EM03

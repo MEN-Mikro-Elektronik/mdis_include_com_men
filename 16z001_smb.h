@@ -3,8 +3,6 @@
  *         \file 16z001_smb.h
  *
  *       \author cs
- *        $Date: 2009/07/28 14:32:43 $
- *    $Revision: 3.5 $
  *
  *        \brief Header file for MEN 16Z001_SMB FPGA module
  *

@@ -3,8 +3,6 @@
  *         Name: mem_drv.h
  *
  *       Author: kp
- *        $Date: 2005/06/23 16:03:29 $
- *    $Revision: 1.4 $
  * 
  *  Description: MEM driver export definitions
  *                      

@@ -3,8 +3,6 @@
  *        \file  mipios.h
  *
  *      \author  men
- *        $Date: 2009/01/30 09:23:59 $
- *    $Revision: 3.1 $
  * 
  *  	 \brief  MIPIOS - MEN Internet Protocol Input Output System
  *               MIPIOS delivers the IP coupled I/O for MDIS.

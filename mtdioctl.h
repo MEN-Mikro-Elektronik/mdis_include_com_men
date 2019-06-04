@@ -3,8 +3,6 @@
  *         Name: mtdioctl.h
  *
  *       Author: kp
- *        $Date: 2008/11/11 18:21:58 $
- *    $Revision: 2.4 $
  * 
  *  Description: IOCTL interface to Memory Technology drivers
  *                      

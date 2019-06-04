@@ -3,8 +3,6 @@
  *        \file  smb2.h
  *
  *      \author  Christian.Schuster@men.de
- *        $Date: 2009/12/22 16:04:18 $
- *    $Revision: 3.23 $
  *
  *     \project  SMB2 Library
  *       \brief  system managment bus routines interface

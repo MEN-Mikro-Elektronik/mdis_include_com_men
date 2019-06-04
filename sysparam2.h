@@ -3,8 +3,6 @@
  *        \file  sysparam2.h
  *
  *      \author  klaus.popp@men.de
- *        $Date: 2012/03/16 18:56:42 $
- *    $Revision: 2.44 $
  *
  *  	 \brief  Header file for MEN's sysparam library (second try!)
  *

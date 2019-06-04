@@ -3,8 +3,6 @@
  *         Name: mdis_api.h
  *
  *       Author: uf
- *        $Date: 2009/05/15 10:53:07 $
- *    $Revision: 1.22 $
  *
  *  Description: MDIS application interface definitions
  *

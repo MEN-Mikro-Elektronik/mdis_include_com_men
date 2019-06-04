@@ -3,8 +3,6 @@
  *        \file  oss.h
  *
  *      \author  uf
- *        $Date: 2011/05/18 17:00:25 $
- *    $Revision: 1.54 $
  *
  *	   \project  MDISforLinux
  *	     \brief  Operating System Services module interface

@@ -3,8 +3,6 @@
  *         Name: em01_cfg.h
  *
  *       Author: kp
- *        $Date: 2011/05/23 15:31:26 $
- *    $Revision: 3.16 $
  *
  *  Description: MEN EM01 Configuration and Memory Map
  *

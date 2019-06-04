@@ -3,8 +3,6 @@
  *         Name: bb_chameleon.h
  *
  *       Author: kp
- *        $Date: 2011/01/19 11:03:01 $
- *    $Revision: 2.4 $
  * 
  *  Description: Header file for CHAMELEON BBIS driver
  *               - CHAMELEON function prototypes

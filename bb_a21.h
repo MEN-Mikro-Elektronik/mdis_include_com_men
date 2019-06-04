@@ -3,8 +3,6 @@
  *         Name: bb_a21.h
  *
  *       Author: kp
- *        $Date: 2001/04/11 11:05:54 $
- *    $Revision: 2.1 $
  *
  *  Description: Header file for A21 BBIS driver
  *               - A21 specific status codes
