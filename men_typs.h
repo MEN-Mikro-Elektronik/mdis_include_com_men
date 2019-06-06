@@ -167,6 +167,7 @@ typedef signed short    int16;			/**< 16-bit signed integer */
 #define IN_RANGE(v,b,e) ((v)>=(b) && (v)<=(e))
 
 /** stringize macros */
+#define MENT_XSTR_SFX(s,p) MENT_STR(s) " " MENT_STR(p)
 #define MENT_XSTR(s) MENT_STR(s)
 #define MENT_STR(s) #s
 
