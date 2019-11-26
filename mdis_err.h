@@ -9,7 +9,7 @@
  *     Switches: HPRT LYNX OS9 MSDOS WINNT VXWORKS MENMON LINUX
  *
  *---------------------------------------------------------------------------
- * Copyright (c) 1997-2019, MEN Mikro Elektronik GmbH
+ * Copyright 1997-2019, MEN Mikro Elektronik GmbH
  ******************************************************************************/
 /*
  * This library is free software; you can redistribute it and/or

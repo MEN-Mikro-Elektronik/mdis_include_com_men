@@ -9,7 +9,7 @@
  *     Switches: COMPILE_RBDRV - when compiling a RB driver
  *
  *---------------------------------------------------------------------------
- * Copyright (c) 1998-2019, MEN Mikro Elektronik GmbH
+ * Copyright 1998-2019, MEN Mikro Elektronik GmbH
  ******************************************************************************/
 /*
  * This program is free software: you can redistribute it and/or modify

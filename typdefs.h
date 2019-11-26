@@ -19,7 +19,7 @@
  *					PCBUS, VMEBUS			bus flags		(->byte address)
  *
  *---------------------------------------------------------------------------
- * Copyright (c) 1992-2019, MEN Mikro Elektronik GmbH
+ * Copyright 1992-2019, MEN Mikro Elektronik GmbH
  ****************************************************************************/
  /*
  * This program is free software: you can redistribute it and/or modify

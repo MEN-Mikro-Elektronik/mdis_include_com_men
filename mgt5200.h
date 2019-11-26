@@ -9,7 +9,7 @@
  *     Switches: MGT5100_ASM_DEFS_ONLY - set this if compiling .s files
  *
  *---------------------------------------------------------------------------
- * Copyright (c) 2003-2019, MEN Mikro Elektronik GmbH
+ * Copyright 2003-2019, MEN Mikro Elektronik GmbH
  ******************************************************************************/
 /*
  * This program is free software: you can redistribute it and/or modify
