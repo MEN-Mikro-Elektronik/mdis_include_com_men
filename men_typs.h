@@ -192,7 +192,7 @@ typedef signed short    int16;			/**< 16-bit signed integer */
 
 /* Handle intentional statement that falls through to another case label */
 #if defined(__GNUC__) && (__GNUC__ >= 7)
-# define FALLTHROUGH __attribute__((fallthrough))
+# define FALLTHROUGH __attribute__((__fallthrough__))
 #else
 # define FALLTHROUGH
 #endif
