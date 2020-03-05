@@ -190,6 +190,13 @@ typedef signed short    int16;			/**< 16-bit signed integer */
 # define MEN_PATHSEP 0x5c
 #endif
 
+/* Handle intentional statement that falls through to another case label */
+#if defined(__GNUC__) && (__GNUC__ >= 7)
+# define FALLTHROUGH __attribute__((fallthrough))
+#else
+# define FALLTHROUGH
+#endif
+
 #endif  /* _MEN_TYPS_H  */
 
 
