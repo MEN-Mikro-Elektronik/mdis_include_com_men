@@ -22,7 +22,7 @@
  */
 /*
  *---------------------------------------------------------------------------
- * Copyright 1997-2019, MEN Mikro Elektronik GmbH
+ * Copyright 1997-2020, MEN Mikro Elektronik GmbH
  ******************************************************************************/
 /*
  * This library is free software; you can redistribute it and/or
@@ -188,6 +188,13 @@ typedef signed short    int16;			/**< 16-bit signed integer */
 #endif
 #if defined(MSDOS) || defined(WINNT)
 # define MEN_PATHSEP 0x5c
+#endif
+
+/* Handle intentional statement that falls through to another case label */
+#if defined(__GNUC__) && (__GNUC__ >= 7)
+# define FALLTHROUGH __attribute__((__fallthrough__))
+#else
+# define FALLTHROUGH
 #endif
 
 #endif  /* _MEN_TYPS_H  */
