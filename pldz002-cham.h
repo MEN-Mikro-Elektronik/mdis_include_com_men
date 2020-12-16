@@ -71,6 +71,7 @@
 		(0x0+(0x4*(mbx)))					/**< Mailbox Data Register 0..3 (r/w)*/
 
 #define PLDZ002_IACK_SPACE		0x00000100	/**< IACK space - offset     				*/
+#define PLDZ002_A21_IACK_SPACE		0x00400000	/**< A21 IACK space - offset     			*/
 #define PLDZ002_IACK_SIZE		0x00000010	/**< IACK space - size (16 Bytes)			*/
 #define PLDZ002_IACK_ID(lev)	((lev<<1)+0x01)	/**< interrupt id for level 			*/
 
