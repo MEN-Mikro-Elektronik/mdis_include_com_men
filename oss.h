@@ -118,14 +118,14 @@ typedef enum {
 /** Structure that describes address-window list nodes */
 typedef struct {
 	OSS_DL_NODE		n;
-	int32			fd;			/**< handle to opened device */
-	OSS_VME_WINTYPE winType;			/**< address-window type */
+	int32			fd;				/**< handle to opened device */
+	OSS_VME_WINTYPE winType;		/**< address-window type */
 	long			vmeAddr;		/**< VMEbus addresses to map (from user) */
 	long			locAddr;		/**< local address (translated) */
 	long			size;			/**< number of bytes to map (from user) */
 	/* master exclusive usage */
 	u_int32			addrMode;		/**< OSS_VME_AM_X address mode (from user) */
-	u_int32			maxDataMode;		/**< OSS_VME_DM_max data mode (from user) */
+	u_int32			maxDataMode;	/**< OSS_VME_DM_max data mode (from user) */
 	u_int32			flags;			/**< flags (from user) */
 	u_int32			useNbr;			/**< number of usage */
 	/* slave exclusive usage */
@@ -288,21 +288,22 @@ typedef struct {
 #define OSS_ISA_IRQ_LEVEL			0x30
 
 /* swap macros */
-#define OSS_SWAP16(word)	( (((word)>>8) & 0xff) | (((word)<<8)&0xff00) )
+#define OSS_SWAP16(word)    ( (((UINT16)(word)>>8u) & 0x00ffu)    | \
+                              (((UINT16)(word)<<8u) & 0xff00u) )
 
-#define OSS_SWAP32(dword)	( (((dword)>>24)& 0x000000ff)   | \
-							  (((dword)<<24)& 0xff000000)   | \
-							  (((dword)>>8) & 0x0000ff00)   | \
-							  (((dword)<<8) & 0x00ff0000)     )
+#define OSS_SWAP32(dword)   ( (((UINT32)(dword)>>24u) & 0x000000ffu)   | \
+                              (((UINT32)(dword)<<24u) & 0xff000000u)   | \
+                              (((UINT32)(dword)>> 8u) & 0x0000ff00u)   | \
+                              (((UINT32)(dword)<< 8u) & 0x00ff0000u)     )
 
-#define OSS_SWAP64(qword)  (  ((qword>>56) & 0x00000000000000ffLL) | \
-							  ((qword<<56) & 0xff00000000000000LL) | \
-							  ((qword>>40) & 0x000000000000ff00LL) | \
-							  ((qword<<40) & 0x00ff000000000000LL) | \
-							  ((qword>>24) & 0x0000000000ff0000LL) | \
-							  ((qword<<24) & 0x0000ff0000000000LL) | \
-							  ((qword>>8)  & 0x00000000ff000000LL) | \
-							  ((qword<<8)  & 0x000000ff00000000LL)   )
+#define OSS_SWAP64(qword)  (  ((UINT64)(qword>>56u) & 0x00000000000000ffLLu) | \
+                              ((UINT64)(qword<<56u) & 0xff00000000000000LLu) | \
+                              ((UINT64)(qword>>40u) & 0x000000000000ff00LLu) | \
+                              ((UINT64)(qword<<40u) & 0x00ff000000000000LLu) | \
+                              ((UINT64)(qword>>24u) & 0x0000000000ff0000LLu) | \
+                              ((UINT64)(qword<<24u) & 0x0000ff0000000000LLu) | \
+                              ((UINT64)(qword>> 8u) & 0x00000000ff000000LLu) | \
+                              ((UINT64)(qword<< 8u) & 0x000000ff00000000LLu)   )
 
 /* merge the pci domain number into the pci bus number */
 #define OSS_MERGE_BUS_DOMAIN(bus, domain) \

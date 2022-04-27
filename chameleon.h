@@ -234,6 +234,7 @@ typedef struct {
 	u_int32	addr;		/*!< base address */
 	u_int32 size;		/*!< size of address windows (0 if unknown) */
 	int8 type;			/*!< 0=mem, 1=io, -1=unused */
+	u_int32 reghandle;  /* register handle */
 } CHAMELEONV2_BA;
 
 /**
@@ -314,6 +315,7 @@ typedef struct {
 	void	*addr;				/*!< computed unit address
 								     - caller's view, see \ref _CHAM2_ADDR */
 	u_int32 reserved;			/*!< reserved */
+	void * regHandle;           /*!< handle for register access */
 } CHAMELEONV2_UNIT;
 
 /**

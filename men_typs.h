@@ -57,9 +57,12 @@
 #endif
 
 #ifdef VXWORKS
-	#ifndef _VSB_CONFIG_FILE
-		#define _VSB_CONFIG_FILE "../lib/h/config/vsbConfig.h"
-	#endif
+  #ifndef _VSB_CONFIG_FILE
+    #warning _VSB_CONFIG_FILE not defined - using default
+    #define _VSB_CONFIG_FILE "../lib/h/config/vsbConfig.h"
+  #endif
+#else
+#error VxWORKS not defined
 #endif
 
 /*-------------------------------------------------------------------------+
@@ -133,7 +136,7 @@ typedef signed short    int16;			/**< 16-bit signed integer */
 #define __MAPILIB						/**< MEN API calling convention */
     #define INT32_OR_64		int64		/**< 32 or 64-bit signed integer */
 	#define U_INT32_OR_64	u_int64		/**< 32 or 64-bit unsigned integer */
-	#define MENTYPS_64BIT	
+	#define MENTYPS_64BIT
   /* 32-bit compiler */
   #else
     #define __MAPILIB 		__stdcall	/**< MEN API calling convention */
@@ -146,8 +149,8 @@ typedef signed short    int16;			/**< 16-bit signed integer */
     #define __MAPILIB
     #define INT32_OR_64		int64		/**< 32 or 64-bit signed integer */
 	#define U_INT32_OR_64	u_int64		/**< 32 or 64-bit unsigned integer */
-	#define MENTYPS_64BIT	
-#endif 	
+	#define MENTYPS_64BIT
+#endif
 
 #ifndef INT32_OR_64
 	#define INT32_OR_64		int32		/**< 32 or 64-bit signed integer */
