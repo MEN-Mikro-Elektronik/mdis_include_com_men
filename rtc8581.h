@@ -39,6 +39,10 @@
 #define RTC8581_SMB_ADDR	0xa2		/* fix for this RTC */
 #endif
 
+#ifndef RTC8803_SMB_ADDR
+#define RTC8803_SMB_ADDR	0x64		/* fix for this RTC */
+#endif
+
 /* register indices */
 #define RTC8581_SEC				0
 #define RTC8581_MIN				1
