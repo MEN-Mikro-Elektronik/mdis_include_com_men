@@ -74,7 +74,7 @@ void tu_exit		PROTO((void));
 
 u_int32 tu_get_tick PROTO((void));
 char *tu_tick2string PROTO(( int fmt, u_int32 tick_diff ));
-char *tu_bytes_per_sec PROTO(( u_int32 bytes, u_int32 tick_diff ));
+char *tu_bytes_per_sec PROTO(( u_int64 bytes, u_int64 tick_diff ));
 
 
 char tu_getc		PROTO((void));
