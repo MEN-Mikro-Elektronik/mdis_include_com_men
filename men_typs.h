@@ -61,8 +61,6 @@
     #warning _VSB_CONFIG_FILE not defined - using default
     #define _VSB_CONFIG_FILE "../lib/h/config/vsbConfig.h"
   #endif
-#else
-#error VxWORKS not defined
 #endif
 
 /*-------------------------------------------------------------------------+
