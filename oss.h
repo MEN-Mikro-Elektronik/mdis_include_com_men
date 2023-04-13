@@ -308,21 +308,22 @@ typedef struct {
 				      ((UINT64)(qword<< 8u) & 0x000000ff00000000LLu)   )
 #else
 	/* swap macros */
-	#define OSS_SWAP16(word)   (  (((word)>>8) & 0xff) | (((word)<<8)&0xff00) )
+    #define OSS_SWAP16(word)   ( (((u_int16)(word)>>8) & 0xff) | \
+                                 (((u_int16)(word)<<8) & 0xff00) )
 
-	#define OSS_SWAP32(dword)  (  (((dword)>>24)& 0x000000ff)   | \
-				      (((dword)<<24)& 0xff000000)   | \
-				      (((dword)>>8) & 0x0000ff00)   | \
-				      (((dword)<<8) & 0x00ff0000)     )
+    #define OSS_SWAP32(dword)  ( (((u_int32)(dword)>>24) & 0x000000ff)   | \
+                                 (((u_int32)(dword)<<24) & 0xff000000)   | \
+                                 (((u_int32)(dword)>>8)  & 0x0000ff00)   | \
+                                 (((u_int32)(dword)<<8)  & 0x00ff0000) )
 
-	#define OSS_SWAP64(qword)  (  ((qword>>56) & 0x00000000000000ffLL) | \
-				      ((qword<<56) & 0xff00000000000000LL) | \
-				      ((qword>>40) & 0x000000000000ff00LL) | \
-				      ((qword<<40) & 0x00ff000000000000LL) | \
-				      ((qword>>24) & 0x0000000000ff0000LL) | \
-				      ((qword<<24) & 0x0000ff0000000000LL) | \
-				      ((qword>>8)  & 0x00000000ff000000LL) | \
-				      ((qword<<8)  & 0x000000ff00000000LL)   )
+    #define OSS_SWAP64(qword)  ( ((u_int64)(qword>>56) & 0x00000000000000ffLL) | \
+                                 ((u_int64)(qword<<56) & 0xff00000000000000LL) | \
+                                 ((u_int64)(qword>>40) & 0x000000000000ff00LL) | \
+                                 ((u_int64)(qword<<40) & 0x00ff000000000000LL) | \
+                                 ((u_int64)(qword>>24) & 0x0000000000ff0000LL) | \
+                                 ((u_int64)(qword<<24) & 0x0000ff0000000000LL) | \
+                                 ((u_int64)(qword>>8)  & 0x00000000ff000000LL) | \
+                                 ((u_int64)(qword<<8)  & 0x000000ff00000000LL) )
 #endif
 
 /* merge the pci domain number into the pci bus number */
